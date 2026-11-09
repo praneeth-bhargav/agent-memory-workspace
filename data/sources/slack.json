@@ -1,0 +1,63 @@
+{
+  "channels": [
+    {
+      "name": "#ops",
+      "members": [
+        "rohan",
+        "priya",
+        "arjun",
+        "kavya"
+      ]
+    },
+    {
+      "name": "#eng-weekly",
+      "members": [
+        "rohan",
+        "arjun",
+        "priya"
+      ]
+    },
+    {
+      "name": "#support",
+      "members": [
+        "rohan",
+        "kavya"
+      ]
+    },
+    {
+      "name": "#general",
+      "members": [
+        "rohan",
+        "priya",
+        "arjun",
+        "kavya"
+      ]
+    }
+  ],
+  "history": [
+    {
+      "channel": "#ops",
+      "ts": "2026-04-24T17:07:00+05:30",
+      "author": "agent",
+      "text": "Weekly support summary: 121 tickets. Login 20, billing webhooks 14, export 17, mobile crash 13, pricing questions 11, other 46. 91% resolved, 2 escalations."
+    },
+    {
+      "channel": "#ops",
+      "ts": "2026-05-08T17:05:00+05:30",
+      "author": "agent",
+      "text": "Weekly support summary: 128 tickets. Login 21, billing webhooks 15, export 19, mobile crash 14, pricing questions 12, other 47. 93% resolved, 1 escalation."
+    },
+    {
+      "channel": "#eng-weekly",
+      "ts": "2026-05-04T10:03:00+05:30",
+      "author": "agent",
+      "text": "Open critical bugs: Platform 6, Growth 3, Mobile 5 (14 total)."
+    },
+    {
+      "channel": "#eng-weekly",
+      "ts": "2026-05-11T10:03:00+05:30",
+      "author": "agent",
+      "text": "Open critical bugs: Platform 7, Growth 3, Mobile 5 (15 total). Platform +1 vs last week."
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "people": {
+    "rohan": {
+      "name": "Rohan Menon",
+      "email": "rohan@kestrelworks.example",
+      "timezone": "Asia/Kolkata"
+    },
+    "priya": {
+      "name": "Priya Nair",
+      "email": "priya@kestrelworks.example",
+      "timezone": "Asia/Kolkata"
+    },
+    "arjun": {
+      "name": "Arjun Sethi",
+      "email": "arjun@kestrelworks.example",
+      "timezone": "Asia/Kolkata"
+    },
+    "kavya": {
+      "name": "Kavya Shah",
+      "email": "kavya@kestrelworks.example",
+      "timezone": "Asia/Kolkata"
+    }
+  },
+  "events": [
+    {
+      "person": "rohan",
+      "title": "Planning",
+      "start": "2026-05-25T10:00:00+05:30",
+      "end": "2026-05-25T11:00:00+05:30"
+    },
+    {
+      "person": "rohan",
+      "title": "Board prep",
+      "start": "2026-05-25T14:00:00+05:30",
+      "end": "2026-05-25T15:30:00+05:30"
+    },
+    {
+      "person": "rohan",
+      "title": "Standup",
+      "start": "2026-05-26T10:00:00+05:30",
+      "end": "2026-05-26T10:30:00+05:30"
+    },
+    {
+      "person": "rohan",
+      "title": "Customer call",
+      "start": "2026-05-26T15:00:00+05:30",
+      "end": "2026-05-26T16:00:00+05:30"
+    },
+    {
+      "person": "rohan",
+      "title": "Hiring sync",
+      "start": "2026-05-27T11:00:00+05:30",
+      "end": "2026-05-27T12:00:00+05:30"
+    },
+    {
+      "person": "rohan",
+      "title": "Roadmap",
+      "start": "2026-05-28T10:00:00+05:30",
+      "end": "2026-05-28T11:30:00+05:30"
+    },
+    {
+      "person": "rohan",
+      "title": "1:1",
+      "start": "2026-05-28T16:30:00+05:30",
+      "end": "2026-05-28T17:00:00+05:30"
+    },
+    {
+      "person": "rohan",
+      "title": "Standup",
+      "start": "2026-05-29T10:00:00+05:30",
+      "end": "2026-05-29T10:30:00+05:30"
+    },
+    {
+      "person": "priya",
+      "title": "Design crit",
+      "start": "2026-05-25T10:30:00+05:30",
+      "end": "2026-05-25T12:00:00+05:30"
+    },
+    {
+      "person": "priya",
+      "title": "Mobile triage",
+      "start": "2026-05-25T15:00:00+05:30",
+      "end": "2026-05-25T16:00:00+05:30"
+    },
+    {
+      "person": "priya",
+      "title": "Design crit",
+      "start": "2026-05-26T10:00:00+05:30",
+      "end": "2026-05-26T11:00:00+05:30"
+    },
+    {
+      "person": "priya",
+      "title": "Release prep",
+      "start": "2026-05-26T16:30:00+05:30",
+      "end": "2026-05-26T17:30:00+05:30"
+    },
+    {
+      "person": "priya",
+      "title": "Usability tests",
+      "start": "2026-05-27T13:00:00+05:30",
+      "end": "2026-05-27T14:00:00+05:30"
+    },
+    {
+      "person": "priya",
+      "title": "Lunch with vendor",
+      "start": "2026-05-28T12:00:00+05:30",
+      "end": "2026-05-28T13:00:00+05:30"
+    },
+    {
+      "person": "priya",
+      "title": "Mobile triage",
+      "start": "2026-05-29T11:00:00+05:30",
+      "end": "2026-05-29T12:00:00+05:30"
+    },
+    {
+      "person": "arjun",
+      "title": "Platform sync",
+      "start": "2026-05-25T11:00:00+05:30",
+      "end": "2026-05-25T12:30:00+05:30"
+    },
+    {
+      "person": "arjun",
+      "title": "Incident review",
+      "start": "2026-05-25T16:00:00+05:30",
+      "end": "2026-05-25T17:30:00+05:30"
+    },
+    {
+      "person": "arjun",
+      "title": "Infra check",
+      "start": "2026-05-26T10:30:00+05:30",
+      "end": "2026-05-26T11:00:00+05:30"
+    },
+    {
+      "person": "arjun",
+      "title": "Vendor call",
+      "start": "2026-05-26T13:00:00+05:30",
+      "end": "2026-05-26T14:00:00+05:30"
+    },
+    {
+      "person": "arjun",
+      "title": "Platform sync",
+      "start": "2026-05-27T10:00:00+05:30",
+      "end": "2026-05-27T11:30:00+05:30"
+    },
+    {
+      "person": "arjun",
+      "title": "Deep work",
+      "start": "2026-05-28T10:00:00+05:30",
+      "end": "2026-05-28T12:30:00+05:30"
+    },
+    {
+      "person": "arjun",
+      "title": "Code review",
+      "start": "2026-05-28T14:00:00+05:30",
+      "end": "2026-05-28T14:30:00+05:30"
+    },
+    {
+      "person": "arjun",
+      "title": "Platform sync",
+      "start": "2026-05-29T14:00:00+05:30",
+      "end": "2026-05-29T15:00:00+05:30"
+    },
+    {
+      "person": "kavya",
+      "title": "Growth standup",
+      "start": "2026-05-25T10:00:00+05:30",
+      "end": "2026-05-25T10:45:00+05:30"
+    },
+    {
+      "person": "kavya",
+      "title": "Campaign review",
+      "start": "2026-05-25T13:00:00+05:30",
+      "end": "2026-05-25T14:30:00+05:30"
+    },
+    {
+      "person": "kavya",
+      "title": "Partner call",
+      "start": "2026-05-26T14:00:00+05:30",
+      "end": "2026-05-26T15:00:00+05:30"
+    },
+    {
+      "person": "kavya",
+      "title": "Lunch and learn",
+      "start": "2026-05-27T12:00:00+05:30",
+      "end": "2026-05-27T13:00:00+05:30"
+    },
+    {
+      "person": "kavya",
+      "title": "Growth sync",
+      "start": "2026-05-28T11:00:00+05:30",
+      "end": "2026-05-28T12:00:00+05:30"
+    },
+    {
+      "person": "kavya",
+      "title": "Growth sync",
+      "start": "2026-05-29T10:30:00+05:30",
+      "end": "2026-05-29T11:30:00+05:30"
+    },
+    {
+      "person": "kavya",
+      "title": "Out of office",
+      "start": "2026-05-20T00:00:00+05:30",
+      "end": "2026-05-20T23:59:00+05:30",
+      "all_day": true
+    },
+    {
+      "person": "kavya",
+      "title": "Out of office",
+      "start": "2026-05-21T00:00:00+05:30",
+      "end": "2026-05-21T23:59:00+05:30",
+      "all_day": true
+    }
+  ]
+}

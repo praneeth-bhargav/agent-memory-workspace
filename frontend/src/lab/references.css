@@ -1,0 +1,35 @@
+.message-references {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 10px;
+  color: #637a6e;
+  font-size: 11px;
+}
+
+.message-references a {
+  border: 1px solid #cfe0d2;
+  border-radius: 6px;
+  padding: 4px 7px;
+  color: #285b3e;
+  background: #fff;
+  text-decoration: none;
+}
+
+.message-references a:hover { background: #eaf3eb; }
+.message-references a:focus-visible { outline: 3px solid #528a77; outline-offset: 2px; }
+
+.source-reference-target {
+  animation: source-reference-pulse 2.2s ease-out;
+  scroll-margin-block: 24px;
+}
+
+@keyframes source-reference-pulse {
+  0%, 35% { outline: 3px solid #508b67; outline-offset: 2px; background-color: #e8f4df; }
+  100% { outline-color: transparent; outline-offset: 7px; background-color: transparent; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .source-reference-target { animation: none; outline: 3px solid #508b67; outline-offset: 2px; }
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "source-001",
+    "category": "contact_lookup_exact",
+    "setup": "Mock contacts are seeded from data/sources/contacts.json.",
+    "user_message": "Find Arjun Sethi's contact details.",
+    "source_ids": ["c03"],
+    "expected_behavior": "Identify Arjun Sethi as Kestrel Works' platform lead and give arjun@kestrelworks.example, citing the contact record."
+  },
+  {
+    "id": "source-002",
+    "category": "contact_lookup_ambiguous_name",
+    "setup": "Mock contacts contain Maya Rao at Acme Industries and Maya Iyer at Pixelbarn.",
+    "user_message": "Find Maya's email address.",
+    "source_ids": ["c05", "c06"],
+    "expected_behavior": "Identify both matches, Maya Rao at Acme and Maya Iyer at Pixelbarn, and ask which Maya the user means; do not select one without clarification."
+  },
+  {
+    "id": "source-003",
+    "category": "mail_search",
+    "setup": "Mock mail is seeded from data/sources/mail.json. Thread T-ACME-01 is titled 'Proposal timeline'.",
+    "user_message": "Find Maya Rao's latest email about the delivery date.",
+    "source_ids": ["T-ACME-01"],
+    "expected_behavior": "Find the latest relevant email in Proposal timeline: Maya's May 17 follow-up asks for a yes or no by Monday ahead of the board meeting; the thread concerns the requested May 22 delivery. Cite the source and do not claim the date was confirmed."
+  },
+  {
+    "id": "source-004",
+    "category": "mail_thread_read",
+    "setup": "Mock mail thread T-ACME-01 contains the full proposal-timeline conversation.",
+    "user_message": "Read the full Proposal timeline email thread.",
+    "source_ids": ["T-ACME-01"],
+    "expected_behavior": "Read and present the full Proposal timeline thread with its messages in order, including senders and dates, with a source reference. Do not claim that May 22 delivery was confirmed."
+  },
+  {
+    "id": "source-005",
+    "category": "slack_search",
+    "setup": "Mock Slack is seeded from data/sources/slack.json. The #eng-weekly channel includes weekly critical-bug summaries.",
+    "user_message": "How many critical bugs were open in the latest engineering weekly update?",
+    "source_ids": [],
+    "expected_behavior": "Report 15 open critical bugs from the May 11 #eng-weekly update: Platform 7, Growth 3, Mobile 5. Cite the Slack source."
+  },
+  {
+    "id": "source-006",
+    "category": "calendar_read",
+    "setup": "Mock calendar is seeded from data/sources/calendar.json. Calendar key 'rohan' belongs to Rohan Menon.",
+    "user_message": "What is on my calendar on May 25, 2026?",
+    "source_ids": [],
+    "expected_behavior": "List Rohan's Planning event from 10:00 to 11:00 IST and Board prep from 14:00 to 15:30 IST on May 25, 2026, with calendar source references."
+  },
+  {
+    "id": "source-007",
+    "category": "calendar_owner_lookup",
+    "setup": "Mock calendar owners and their keys are seeded from data/sources/calendar.json.",
+    "user_message": "Who has a calendar in the workspace?",
+    "source_ids": [],
+    "expected_behavior": "List the calendar owners Rohan Menon, Priya Nair, Arjun Sethi, and Kavya Shah, grounded in the workspace calendar data."
+  },
+  {
+    "id": "source-008",
+    "category": "calendar_availability_lookup",
+    "setup": "Mock calendars are seeded from data/sources/calendar.json. The requested participants have calendar keys 'rohan' and 'arjun'.",
+    "user_message": "Find a 30-minute slot for Arjun and me on May 26, 2026, between 11:00 and 14:00 IST.",
+    "source_ids": [],
+    "expected_behavior": "Check Rohan's and Arjun's calendars and propose a free 30-minute interval within 11:00–14:00 IST on May 26, such as 11:00–11:30. Referring to Rohan as 'you' is acceptable when the tool evidence identifies him. Do not book it without confirmation.",
+    "deterministic_checks": [
+      "The offered 30-minute slot is free for Arjun and Rohan within 11:00–14:00 IST on May 26, 2026, and both calendars were checked.",
+      "No pending action remains."
+    ]
+  }
+]

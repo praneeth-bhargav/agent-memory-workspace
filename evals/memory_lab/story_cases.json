@@ -1,0 +1,90 @@
+[
+  {
+    "id": "story-001",
+    "category": "brief_format_recall",
+    "setup": "Shared memory contains the user's brief-format instructions from data/history/2026-W16.jsonl.",
+    "user_message": "How should I format a short brief?",
+    "source_ids": ["history:m0003"],
+    "expected_behavior": "The agent should say to use no more than five bullets, list sources, and avoid emojis."
+  },
+  {
+    "id": "story-002",
+    "category": "superseded_schedule_preference",
+    "setup": "The user initially wanted a 09:30 weekday brief excluding Wednesdays, then changed it to 08:30 every weekday, including Wednesdays. The later instruction supersedes the earlier one.",
+    "user_message": "When should I get my morning brief on Wednesday?",
+    "source_ids": ["history:m0011", "history:m0485"],
+    "expected_behavior": "The agent should answer 08:30 IST on Wednesday. The updated schedule includes Wednesdays and replaces the earlier 09:30 schedule."
+  },
+  {
+    "id": "story-003",
+    "category": "person_identity_and_contextual_cc",
+    "setup": "Shared history distinguishes Maya Iyer, the Pixelbarn freelance designer, from Maya Rao at Acme. For the illustration email in this conversation, the user explicitly said no cc.",
+    "user_message": "Who is Maya Iyer, and should Arjun be cc'd on her illustration email?",
+    "source_ids": ["history:m0518", "history:m1545"],
+    "expected_behavior": "The agent should identify Maya Iyer as the freelance designer at Pixelbarn and say Arjun should not be cc'd on this illustration email, since the user specified no cc. It should not apply the Acme cc preference to this message."
+  },
+  {
+    "id": "story-004",
+    "category": "request_is_not_commitment",
+    "setup": "Acme's board requested May 22, but the user explicitly said they had not agreed. Arjun still needs to check the migration plan, and Priya needs the cut list before committing.",
+    "user_message": "Did I promise Acme delivery by May 22?",
+    "source_ids": ["history:m1448", "history:m1450", "history:m1454", "history:m1590"],
+    "expected_behavior": "The agent should say no: May 22 is a working target requested by Acme's board, not a promise. Feasibility is still pending Arjun's migration check and Priya's cut list."
+  },
+  {
+    "id": "story-005",
+    "category": "latest_working_target",
+    "setup": "The original Acme target was May 29. The user later replaced it with May 22 as the working target, while explicitly saying it was not agreed with Acme.",
+    "user_message": "What delivery date are we currently working toward for Acme?",
+    "source_ids": ["history:m0405", "history:m1454", "history:m1763"],
+    "expected_behavior": "The agent should answer May 22 as the current working target, superseding May 29, and clarify that it is not a confirmed commitment to Acme."
+  },
+  {
+    "id": "story-006",
+    "category": "illustration_recipient_disambiguation",
+    "setup": "Shared history identifies Maya Iyer as the Pixelbarn freelance designer and distinguishes her from Maya Rao at Acme. The Arjun cc preference applies to Acme mail; this request is about illustrations for Maya Iyer at Pixelbarn. No email has been approved for sending.",
+    "user_message": "Draft a note to Maya asking if v3 also comes in a smaller size for the app.",
+    "source_ids": ["history:m0405", "history:m0518", "history:m1543"],
+    "expected_behavior": "The agent should resolve Maya to Maya Iyer at Pixelbarn, not Maya Rao at Acme. It should not apply the Acme-specific cc preference to this email, and should ask for approval before sending. It must not send the email without approval."
+  },
+  {
+    "id": "story-007",
+    "category": "tentative_plan_status",
+    "setup": "June 25–26 is the current offsite option. The user said to keep it tentative; team confirmation is still outstanding.",
+    "user_message": "Is the June offsite confirmed?",
+    "source_ids": ["history:m1338", "history:m1413", "history:m1684", "history:m1686"],
+    "expected_behavior": "The agent should say the offsite is not confirmed: June 25–26 is still tentative, and the team has not been asked to confirm those dates."
+  },
+  {
+    "id": "story-008",
+    "category": "channel_routing_recall",
+    "setup": "Shared memory contains the user's channel guidance for support and engineering updates.",
+    "user_message": "Which channel should get support summaries?",
+    "source_ids": ["history:m0170"],
+    "expected_behavior": "The agent should say support summaries go to #ops and engineering updates go to #eng-weekly."
+  },
+  {
+    "id": "story-009",
+    "category": "metric_definition_recall",
+    "setup": "Shared memory contains the user's definitions for signups, activated accounts, and reporting weeks.",
+    "user_message": "What counts as an activated account?",
+    "source_ids": ["history:m1383"],
+    "expected_behavior": "The agent should answer that an account is activated when it completes its first project within seven days."
+  },
+  {
+    "id": "story-010",
+    "category": "current_source_freshness",
+    "setup": "The mock Slack source is seeded from data/sources/slack.json. The latest #ops post in that fixture is dated May 8, 2026.",
+    "user_message": "What is the latest message in #ops?",
+    "source_ids": ["data/sources/slack.json"],
+    "expected_behavior": "The agent should query the current Slack source and report the May 8, 2026 support summary: 128 tickets, 93% resolved, and one escalation. It should not answer from a stale memory snapshot."
+  },
+  {
+    "id": "story-011",
+    "category": "unsent_draft_action_state",
+    "setup": "The assistant corrected the illustration email to Maya Iyer with no cc. The user then explicitly said not to send it and that they would message her later; the draft was dropped.",
+    "user_message": "Was the illustration v3 email sent to Maya Iyer?",
+    "source_ids": ["history:m1546", "history:m1548", "history:m1549", "history:m1550"],
+    "expected_behavior": "The agent should say the email was not sent. The user asked not to send it, and the assistant dropped the draft."
+  }
+]

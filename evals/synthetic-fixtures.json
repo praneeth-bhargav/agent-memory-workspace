@@ -1,0 +1,74 @@
+[
+  {
+    "path": "data/history/index.json",
+    "sha256": "17de9b52918ddacb50d54e28802d8a63778ca7adb60de06e7e580cffcbfd8de0"
+  },
+  {
+    "path": "data/persona.json",
+    "sha256": "b5210b2eab4b357c8370bdf2735d0fedeaac199723cef16b0b16a4ac183007d3"
+  },
+  {
+    "path": "data/sources/calendar.json",
+    "sha256": "f8ff67e3149d0aace13fa64a910752031a363632c3a1d6d175a7f697c6e1e4fc"
+  },
+  {
+    "path": "data/sources/contacts.json",
+    "sha256": "7faac49d21d4b70cafe84b9707a421ba183e0b446fbc0cde9ff216d721050df2"
+  },
+  {
+    "path": "data/sources/mail.json",
+    "sha256": "6b996d34f5e954e1c1cd735e095feb75a002881860532d8432a8f480d14ec0c3"
+  },
+  {
+    "path": "data/sources/slack.json",
+    "sha256": "5d3c6771ee45ab6e24204ef76c7cdb51eeddc44fa00c81447ba77e5f6c965fb7"
+  },
+  {
+    "path": "data/history/2026-W16.jsonl",
+    "sha256": "ef4d2224713c5f551e3b7d7f08c58d8332d847502a875c18d583feb9b8e9ad9e"
+  },
+  {
+    "path": "data/history/2026-W17.jsonl",
+    "sha256": "2ef5632fdde7033ebf56c9776e1b30fa4849e65d5e7fba46bc5b23a8b9eec001"
+  },
+  {
+    "path": "data/history/2026-W18.jsonl",
+    "sha256": "36ebc9228d06d624ac743fb761d2019416bae2444740933f83977dbc9b02416e"
+  },
+  {
+    "path": "data/history/2026-W19.jsonl",
+    "sha256": "7fdf0a909d73923de65908a4103e75b51e38868abf7b348e289db794b2b3694c"
+  },
+  {
+    "path": "data/history/2026-W20.jsonl",
+    "sha256": "cb2360cb9d7057bd4494b3ab4e2f1c5841b7a1d01a3632437b3584d78b688d29"
+  },
+  {
+    "path": "evals/memory_lab/chat_citations.json",
+    "sha256": "2172c523d8804fa63984148fb458398e1e358c1d57589a52581f5ed6be485eed"
+  },
+  {
+    "path": "evals/memory_lab/chat_lifecycle.json",
+    "sha256": "71bde5df4f770424d6decf3d39353e171f9fe2e3d494f0d32f215dd5992f8d07"
+  },
+  {
+    "path": "evals/memory_lab/handoff.json",
+    "sha256": "8ed4a854938ccc5702aabac60ca85454667ad8728111795d964be462c11298e6"
+  },
+  {
+    "path": "evals/memory_lab/memory.json",
+    "sha256": "9a2adc711517770e915ae8bca6b09d3a243b2a11787985b252a5f2fa25ee3b48"
+  },
+  {
+    "path": "evals/memory_lab/mock_actions.json",
+    "sha256": "44dc17b17fc8313541ca65df5875d3a98ce656ae2bd0443f997449118f912a40"
+  },
+  {
+    "path": "evals/memory_lab/source_lookup.json",
+    "sha256": "655cbecf8cbe443b63006900a382fd5764fe39d2a7fef6e86512dd24b14097be"
+  },
+  {
+    "path": "evals/memory_lab/story_cases.json",
+    "sha256": "351b67e5a036eedbde8b0758cb65a835e194b98933609f6c11074d7ff571292b"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "chat-001",
+    "category": "new_chat_context_isolation",
+    "setup": "Chat A contains a prior conversation stating the user's favorite color is teal. Chat B is newly created and has no conversation history. Long-term memory is shared across chats.",
+    "user_message": "What did I say my favorite color was in this conversation?",
+    "source_ids": [],
+    "expected_behavior": "The agent should say it cannot determine the favorite color from this chat, because Chat B has no history and no shared memory contains that fact. It should ask the user to remind it rather than answer teal."
+  },
+  {
+    "id": "chat-002",
+    "category": "shared_long_term_memory",
+    "setup": "A different chat saved the shared long-term preference: 'User prefers short, direct emails.' This chat has no prior messages.",
+    "user_message": "How should you write my emails?",
+    "source_ids": [],
+    "expected_behavior": "The agent should recall from shared long-term memory that the user prefers short, direct emails, and say it will use that style."
+  },
+  {
+    "id": "chat-003",
+    "category": "reopen_chat_history",
+    "setup": "A persisted synthetic chat contains the user saying Acme's working target is May 22 but is not agreed, and the assistant asks whether to present it as firm or tentative. The chat is reopened after a page reload or backend restart.",
+    "user_message": "Continue from where we left off.",
+    "source_ids": [],
+    "expected_behavior": "The agent should have access to the reopened chat's prior messages and use them to understand what 'Continue from where we left off' refers to. It should continue the prior discussion when the history makes the next step clear, or ask a focused question if it does not."
+  },
+  {
+    "id": "chat-004",
+    "category": "pending_action_chat_isolation",
+    "setup": "Chat A has a pending mock email. Chat B is a different chat and has no pending action.",
+    "user_message": "Yes, send it.",
+    "source_ids": [],
+    "expected_behavior": "Pending mock actions are scoped to their chat. If 'Yes, send it' is sent in Chat A, the agent should confirm Chat A's pending email. If it is sent in Chat B, which has no pending action, the agent should say there is nothing awaiting confirmation and must not send Chat A's email."
+  }
+]

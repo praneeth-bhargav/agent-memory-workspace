@@ -1,0 +1,90 @@
+[
+  {
+    "id": "handoff-001",
+    "category": "handoff_already_current_owner",
+    "setup": "Scenario-local synthetic fixtures: active shared memory says 'Kavya G handles Birla Group onboarding.' The contact source contains Kavya G (kavya.g@kestrelworks.example) and Kavya K (kavya.k@kestrelworks.example). There are no pending actions. These two contacts and the memory record must be seeded for this case; they are not in the default source fixtures.",
+    "turns": [
+      {
+        "user_message": "Draft an email saying Kavya will take over the Birla Group onboarding process."
+      },
+      {
+        "expected_agent_behavior": "The agent should check the current owner in memory and the matching contacts, then ask which Kavya the user means, distinguishing them by name and email. It must not prepare or send an email while the person is ambiguous."
+      },
+      {
+        "user_message": "Kavya G, kavya.g@kestrelworks.example."
+      },
+      {
+        "expected_agent_behavior": "The agent should explain that Kavya G already handles Birla Group onboarding. It should not prepare or send a handoff email, and should leave memory unchanged."
+      }
+    ],
+    "source_ids": [],
+    "deterministic_checks": [
+      "No mock email is recorded as sent.",
+      "No pending action remains.",
+      "The original active memory remains unchanged and no replacement memory is created."
+    ]
+  },
+  {
+    "id": "handoff-002",
+    "category": "handoff_to_alternate_owner_with_approval",
+    "setup": "Scenario-local synthetic fixtures: active shared memory says 'Kavya G handles Birla Group onboarding.' The contact source contains Kavya G (kavya.g@kestrelworks.example) and Kavya K (kavya.k@kestrelworks.example). There are no pending actions. These two contacts and the memory record must be seeded for this case; they are not in the default source fixtures.",
+    "turns": [
+      {
+        "user_message": "Draft an email saying Kavya will take over the Birla Group onboarding process."
+      },
+      {
+        "expected_agent_behavior": "The agent should check the current owner in memory and the matching contacts, then ask which Kavya the user means, distinguishing them by name and email. It must not prepare or send an email while the person is ambiguous."
+      },
+      {
+        "user_message": "Kavya K, kavya.k@kestrelworks.example."
+      },
+      {
+        "expected_agent_behavior": "The agent should prepare a mock handoff email to Kavya K that clearly says she will take over Birla Group onboarding. It should present the complete draft and ask for explicit approval. Before approval, it must not send the email or change memory."
+      },
+      {
+        "user_message": "Yes, send it."
+      },
+      {
+        "expected_agent_behavior": "After confirmation, the agent should send the mock email to Kavya K, report that it was sent, and update shared memory so Kavya K is the active owner and Kavya G's ownership memory is inactive."
+      }
+    ],
+    "source_ids": [],
+    "deterministic_checks": [
+      "After draft preparation and before confirmation: no mock email is recorded as sent, the pending email recipient is kavya.k@kestrelworks.example, and memory is unchanged.",
+      "After confirmation: exactly one mock email is recorded as sent to kavya.k@kestrelworks.example and no pending action remains.",
+      "After confirmation: the Kavya G ownership memory is inactive and the Kavya K ownership memory is active."
+    ]
+  },
+  {
+    "id": "handoff-003",
+    "category": "birla_assignment_draft_prepare_confirm_and_remember",
+    "setup": "Use the default synthetic contact for Priya Nair (priya@kestrelworks.example). Start a new chat with no pending action and no existing memory about Priya handling Birla onboarding.",
+    "turns": [
+      {
+        "user_message": "Draft a mail to Priya that she is going to handle Birla onboarding."
+      },
+      {
+        "expected_agent_behavior": "The agent should resolve Priya Nair and consult the email action context. It may provide a plain-text draft, but must not claim that a mock or real email has been sent."
+      },
+      {
+        "user_message": "send it"
+      },
+      {
+        "expected_agent_behavior": "Because no mock action is pending, the agent should treat this as a request to prepare the prior draft as a mock email. It must retrieve action context in this turn before calling prepare_mock_email, show the complete pending draft, and ask for a separate confirmation. It must not call a real email service."
+      },
+      {
+        "user_message": "yes"
+      },
+      {
+        "expected_agent_behavior": "The agent should confirm only the pending mock email and clearly state that no real external email was sent. It should run its memory decision process over the user's request and the confirmed mock action. Because this is a useful durable assignment and setup contains no existing assignment memory, the decision should create one grounded memory that Priya is assigned Birla onboarding, without claiming that a real email was delivered. It should report the memory change only after it succeeds."
+      }
+    ],
+    "source_ids": ["c02"],
+    "deterministic_checks": [
+      "On the 'send it' turn, successful get_action_context completes before prepare_mock_email, with no context-order tool error.",
+      "Before the separate 'yes' confirmation, exactly one pending mock email targets priya@kestrelworks.example and no outgoing mock email is recorded.",
+      "After confirmation, exactly one outgoing mock email is recorded, no pending action remains, and no real email service was called.",
+      "After confirmation, exactly one active memory is created stating that Priya is assigned Birla onboarding; its text is grounded in the user's request and does not claim real email delivery."
+    ]
+  }
+]

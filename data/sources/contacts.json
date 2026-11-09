@@ -1,0 +1,65 @@
+[
+  {
+    "id": "c01",
+    "name": "Rohan Menon",
+    "email": "rohan@kestrelworks.example",
+    "org": "Kestrel Works",
+    "role": "Founder (the user)"
+  },
+  {
+    "id": "c02",
+    "name": "Priya Nair",
+    "email": "priya@kestrelworks.example",
+    "org": "Kestrel Works",
+    "role": "Mobile lead"
+  },
+  {
+    "id": "c03",
+    "name": "Arjun Sethi",
+    "email": "arjun@kestrelworks.example",
+    "org": "Kestrel Works",
+    "role": "Platform lead"
+  },
+  {
+    "id": "c04",
+    "name": "Kavya Shah",
+    "email": "kavya@kestrelworks.example",
+    "org": "Kestrel Works",
+    "role": "Growth lead"
+  },
+  {
+    "id": "c05",
+    "name": "Maya Rao",
+    "email": "maya.rao@acme-industries.example",
+    "org": "Acme Industries",
+    "role": "Head of Operations"
+  },
+  {
+    "id": "c06",
+    "name": "Maya Iyer",
+    "email": "maya@pixelbarn.example",
+    "org": "Pixelbarn",
+    "role": "Freelance designer"
+  },
+  {
+    "id": "c07",
+    "name": "Imran Qadri",
+    "email": "imran@northbridge-legal.example",
+    "org": "Northbridge Legal",
+    "role": "Contract counsel"
+  },
+  {
+    "id": "c08",
+    "name": "Sunita Pillai",
+    "email": "sunita@acme-industries.example",
+    "org": "Acme Industries",
+    "role": "Procurement"
+  },
+  {
+    "id": "c09",
+    "name": "Dev Anand Rao",
+    "email": "dev@brightline-hosting.example",
+    "org": "Brightline Hosting",
+    "role": "Account manager"
+  }
+]

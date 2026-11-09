@@ -1,0 +1,21 @@
+[
+  {
+    "id": "citation-001",
+    "category": "confirmed_assignment_chat_citation",
+    "setup": "Pooja is a uniquely identified synthetic contact at pooja@synthetic.example. No mock action is pending.",
+    "turns": [
+      {"chat_id": "original", "user_message": "Ask Pooja to lead Birla onboarding by email.", "expected_agent_behavior": "Prepare a mock email to Pooja for confirmation; do not claim it was sent or accepted."},
+      {"chat_id": "original", "user_message": "Yes", "expected_agent_behavior": "Confirm the mock email and save only an assignment fact supported by the original instruction, citing that user message rather than this confirmation."},
+      {"chat_id": "followup", "user_message": "Who was asked to lead Birla onboarding?", "expected_agent_behavior": "Answer Pooja was asked and provide a chat citation linking to the original user instruction, not the Yes message. Do not claim Pooja accepted."}
+    ]
+  },
+  {
+    "id": "citation-002",
+    "category": "rejected_assignment_has_no_memory",
+    "setup": "Pooja is a uniquely identified synthetic contact at pooja@synthetic.example. No mock action is pending.",
+    "turns": [
+      {"chat_id": "original", "user_message": "Ask Pooja to lead Birla onboarding by email.", "expected_agent_behavior": "Prepare a mock email for confirmation without sending it or claiming an assignment was completed."},
+      {"chat_id": "original", "user_message": "No", "expected_agent_behavior": "Cancel the pending mock email without recording an outgoing message or saving a confirmed assignment memory."}
+    ]
+  }
+]

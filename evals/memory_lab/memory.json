@@ -1,0 +1,66 @@
+[
+  {
+    "id": "memory-001",
+    "category": "explicit_preference_create",
+    "setup": "The chat has no existing email-signoff preference. Shared memory contains only the seeded persona record.",
+    "user_message": "End my email with Best & Regards.",
+    "source_ids": [],
+    "expected_behavior": "The agent should save the user's email sign-off preference as 'Best & Regards' and confirm that it was saved. It should also show a sample email using that sign-off."
+  },
+  {
+    "id": "memory-002",
+    "category": "implicit_durable_preference_create",
+    "setup": "The chat has no existing writing-style preference.",
+    "user_message": "I prefer short, direct emails.",
+    "source_ids": [],
+    "expected_behavior": "The agent should save the user's preference for short, direct emails and confirm that it was saved. It should also show a sample email written in that style."
+  },
+  {
+    "id": "memory-003",
+    "category": "memory_recall",
+    "setup": "Shared memory contains the user preference: 'User prefers to end emails with Best & Regards.'",
+    "user_message": "What sign-off do I prefer for emails?",
+    "source_ids": [],
+    "expected_behavior": "The agent should answer that the user's preferred email sign-off is 'Best & Regards'. It may offer to draft an email, but should not imply that it has already contacted anyone."
+  },
+  {
+    "id": "memory-004",
+    "category": "memory_correction",
+    "setup": "Shared memory contains exactly one email-signoff preference: 'User prefers to end emails with Best.' No other sign-off preference is stored.",
+    "user_message": "Change my email sign-off to Best & Regards.",
+    "source_ids": [],
+    "expected_behavior": "The agent should update the existing email sign-off preference to 'Best & Regards' and confirm the change. It should also show a sample email using the updated sign-off."
+  },
+  {
+    "id": "memory-005",
+    "category": "ambiguous_memory_correction",
+    "setup": "Shared memory contains an email-signoff preference and a Slack-tone preference.",
+    "user_message": "Change that preference.",
+    "source_ids": [],
+    "expected_behavior": "The agent should ask which preference the user means, identifying the email sign-off and Slack tone as the two possible preferences. It should not change either memory until the user clarifies."
+  },
+  {
+    "id": "memory-006",
+    "category": "explicit_forgetting",
+    "setup": "Shared memory contains the user preference: 'User prefers to end emails with Best & Regards.'",
+    "user_message": "Forget my email sign-off preference.",
+    "source_ids": [],
+    "expected_behavior": "The agent should remove the email sign-off preference from active memory and confirm that it was forgotten. Future memory searches should not retrieve that preference."
+  },
+  {
+    "id": "memory-007",
+    "category": "transient_information_not_saved",
+    "setup": "No memory records exist besides the seeded persona.",
+    "user_message": "I am working from home today.",
+    "source_ids": [],
+    "expected_behavior": "The agent should acknowledge that the user is working from home today without saving it as a durable memory. It may offer relevant help, such as drafting an email or creating an event."
+  },
+  {
+    "id": "memory-008",
+    "category": "persona_edit_boundary",
+    "setup": "The seeded persona memory exists and contains the user's profile details.",
+    "user_message": "Change my name in your profile to Alex.",
+    "source_ids": [],
+    "expected_behavior": "The agent should explain that profile details cannot be changed through chat and direct the user to edit the Persona tab in the workspace. It should not change the seeded persona memory."
+  }
+]

@@ -1,0 +1,71 @@
+{
+  "note": "Weekly partitions (ISO weeks, Monday to Sunday). Messages are ordered by time across files; ids are global. A session is a run of messages with no gap longer than 30 minutes.",
+  "partitions": [
+    {
+      "file": "2026-W16.jsonl",
+      "from": "2026-04-18",
+      "to": "2026-04-19",
+      "messages": 85,
+      "words": 1380,
+      "sessions": 14,
+      "channels": {
+        "web": 44,
+        "whatsapp": 19,
+        "telegram": 22
+      }
+    },
+    {
+      "file": "2026-W17.jsonl",
+      "from": "2026-04-20",
+      "to": "2026-04-26",
+      "messages": 401,
+      "words": 6220,
+      "sessions": 73,
+      "channels": {
+        "web": 134,
+        "whatsapp": 141,
+        "telegram": 126
+      }
+    },
+    {
+      "file": "2026-W18.jsonl",
+      "from": "2026-04-27",
+      "to": "2026-05-03",
+      "messages": 431,
+      "words": 8803,
+      "sessions": 75,
+      "channels": {
+        "web": 245,
+        "whatsapp": 36,
+        "telegram": 150
+      }
+    },
+    {
+      "file": "2026-W19.jsonl",
+      "from": "2026-05-04",
+      "to": "2026-05-10",
+      "messages": 441,
+      "words": 7315,
+      "sessions": 76,
+      "channels": {
+        "web": 233,
+        "whatsapp": 63,
+        "telegram": 145
+      }
+    },
+    {
+      "file": "2026-W20.jsonl",
+      "from": "2026-05-11",
+      "to": "2026-05-17",
+      "messages": 432,
+      "words": 7401,
+      "sessions": 92,
+      "channels": {
+        "web": 147,
+        "whatsapp": 132,
+        "telegram": 153
+      }
+    }
+  ],
+  "total_messages": 1790
+}

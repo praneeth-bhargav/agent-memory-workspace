@@ -1,0 +1,401 @@
+{"id": "m0086", "ts": "2026-04-20T07:48:16+05:30", "channel": "telegram", "role": "user", "text": "Train is late and I overslept. First thing today?"}
+{"id": "m0087", "ts": "2026-04-20T07:48:24+05:30", "channel": "telegram", "role": "assistant", "text": "Planning at 10:00, so you are fine. Brief arrives at 09:30."}
+{"id": "m0088", "ts": "2026-04-20T09:05:00+05:30", "channel": "whatsapp", "role": "user", "text": "I work 10 to 6 IST. Never book me after 4pm on Fridays."}
+{"id": "m0089", "ts": "2026-04-20T09:05:00+05:30", "channel": "whatsapp", "role": "assistant", "text": "Noted: working hours 10:00 to 18:00 IST, and nothing after 16:00 on Fridays."}
+{"id": "m0090", "ts": "2026-04-20T09:08:19+05:30", "channel": "whatsapp", "role": "user", "text": "Move the 3pm with Arjun to 4."}
+{"id": "m0091", "ts": "2026-04-20T09:08:24+05:30", "channel": "whatsapp", "role": "assistant", "text": "Moved to 16:00 to 16:30 and sent the update to Arjun. He has not responded yet."}
+{"id": "m0092", "ts": "2026-04-20T09:10:20+05:30", "channel": "whatsapp", "role": "user", "text": "Actually I have a call at 4. Make it 3:30."}
+{"id": "m0093", "ts": "2026-04-20T09:10:29+05:30", "channel": "whatsapp", "role": "assistant", "text": "Done: 15:30 to 16:00. Arjun's invite is updated again."}
+{"id": "m0094", "ts": "2026-04-20T09:30:02+05:30", "channel": "whatsapp", "role": "assistant", "text": "Monday brief:\\n- Calendar: Planning 10:00 to 11:00. Arjun now 15:30 to 16:00. Lunch is open. [Calendar]\\n- Mail: Kavya's draft copy for the webinar page needs your OK. Brightline Hosting sent a usage summary for March, no action. [Inbox]\\n- Slack: Arjun asked for ten minutes on the Acme effort questions after planning. [Slack DMs]\\n- Tonight: dry cleaning reminder at 18:00. [Reminders]\\nSources: calendar, inbox, Slack DMs, reminders."}
+{"id": "m0095", "ts": "2026-04-20T09:36:18+05:30", "channel": "whatsapp", "role": "user", "text": "Tell Kavya the copy's fine, go live Wednesday."}
+{"id": "m0096", "ts": "2026-04-20T09:36:27+05:30", "channel": "whatsapp", "role": "assistant", "text": "Draft DM to Kavya: \"Copy is fine. Go live Wednesday.\" Send it?"}
+{"id": "m0097", "ts": "2026-04-20T09:37:07+05:30", "channel": "whatsapp", "role": "user", "text": "yes"}
+{"id": "m0098", "ts": "2026-04-20T09:37:13+05:30", "channel": "whatsapp", "role": "assistant", "text": "Sent."}
+{"id": "m0099", "ts": "2026-04-20T09:52:05+05:30", "channel": "whatsapp", "role": "user", "text": "how many unread emails do I have"}
+{"id": "m0100", "ts": "2026-04-20T09:52:13+05:30", "channel": "whatsapp", "role": "assistant", "text": "Seven. Four newsletters, two automated notices from Brightline Hosting, and Kavya's copy."}
+{"id": "m0101", "ts": "2026-04-20T10:58:19+05:30", "channel": "whatsapp", "role": "user", "text": "[voice note] Okay planning's done. So the actions: I need Arjun's effort estimate for the Acme proposal, Kavya has the webinar page, and Priya wants to line up interviews. Can you note those and ask me on Wednesday where we are on the estimate?"}
+{"id": "m0102", "ts": "2026-04-20T10:58:27+05:30", "channel": "whatsapp", "role": "assistant", "text": "Noted three actions: Arjun's effort estimate for the Acme proposal, Kavya's webinar page, Priya's interview schedule. I will ask about the estimate on Wednesday at 10:00 on WhatsApp."}
+{"id": "m0103", "ts": "2026-04-20T11:04:03+05:30", "channel": "web", "role": "user", "text": "Draft a Slack DM to Arjun with the questions I need answered for the Acme proposal. I want how many weeks for everything in the proposal, the earliest date we could responsibly promise, and what he needs from Priya and Kavya."}
+{"id": "m0104", "ts": "2026-04-20T11:05:00+05:30", "channel": "web", "role": "assistant", "text": "Draft DM to Arjun:\\n\\n\"Arjun, for the Acme proposal I need three things by Wednesday evening. 1) How many weeks of work for everything in the proposal. 2) The earliest delivery date you would sign up for, with and without slack. 3) What you need from Priya and Kavya to hit it. A rough number is fine, I will tidy it before it goes out.\"\\n\\nSend as is?"}
+{"id": "m0105", "ts": "2026-04-20T11:09:16+05:30", "channel": "web", "role": "user", "text": "Make it less formal and drop the last sentence."}
+{"id": "m0106", "ts": "2026-04-20T11:09:25+05:30", "channel": "web", "role": "assistant", "text": "\"Arjun, for the Acme proposal I need three things by Wednesday evening: how many weeks for everything in the proposal, the earliest delivery date you would sign up for (with and without slack), and what you need from Priya and Kavya.\"\\n\\nSend?"}
+{"id": "m0107", "ts": "2026-04-20T11:10:26+05:30", "channel": "web", "role": "user", "text": "send"}
+{"id": "m0108", "ts": "2026-04-20T11:10:33+05:30", "channel": "web", "role": "assistant", "text": "Sent to Arjun."}
+{"id": "m0109", "ts": "2026-04-20T11:14:19+05:30", "channel": "web", "role": "user", "text": "From now on DMs to my own team you can just send, no need to ask. Mail to anyone outside still needs my yes."}
+{"id": "m0110", "ts": "2026-04-20T11:14:25+05:30", "channel": "web", "role": "assistant", "text": "Saved: Slack DMs to Priya, Arjun and Kavya go out without confirmation. Anything external, and all mail, still waits for your yes."}
+{"id": "m0111", "ts": "2026-04-20T11:40:28+05:30", "channel": "web", "role": "user", "text": "I called Imran Qadri this morning. He's happy to look at our standard MSA before Acme comes back with anything. He only does calls after 5pm. Book 30 minutes tomorrow at 5."}
+{"id": "m0112", "ts": "2026-04-20T11:40:35+05:30", "channel": "web", "role": "assistant", "text": "Booked: Tuesday April 21, 17:00 to 17:30, \"Call with Imran Qadri (MSA)\". Noted that Imran prefers calls after 17:00. Do you want me to confirm with him by mail?"}
+{"id": "m0113", "ts": "2026-04-20T11:42:07+05:30", "channel": "web", "role": "user", "text": "No, he's confirmed."}
+{"id": "m0114", "ts": "2026-04-20T11:42:11+05:30", "channel": "web", "role": "assistant", "text": "Nothing sent."}
+{"id": "m0115", "ts": "2026-04-20T12:34:09+05:30", "channel": "telegram", "role": "user", "text": "dal rice or the sandwich, pick"}
+{"id": "m0116", "ts": "2026-04-20T12:34:14+05:30", "channel": "telegram", "role": "assistant", "text": "Dal rice. It will keep you going until the 15:30."}
+{"id": "m0117", "ts": "2026-04-20T13:02:28+05:30", "channel": "web", "role": "user", "text": "Give me three subject lines for the webinar invite to existing customers. Kavya will use one."}
+{"id": "m0118", "ts": "2026-04-20T13:02:37+05:30", "channel": "web", "role": "assistant", "text": "Options:\\n1. \"Join us live: how teams are cutting reporting time\"\\n2. \"You are invited: a practical session for your team\"\\n3. \"Spring webinar: seats are limited\"\\nThe second is the safest for a customer list. The first promises a benefit but makes a claim Kavya would have to back up."}
+{"id": "m0119", "ts": "2026-04-20T13:06:03+05:30", "channel": "web", "role": "user", "text": "Send the second to Kavya as a suggestion."}
+{"id": "m0120", "ts": "2026-04-20T13:06:11+05:30", "channel": "web", "role": "assistant", "text": "Sent to Kavya on Slack: \"Suggested subject line for the webinar invite: You are invited: a practical session for your team.\""}
+{"id": "m0121", "ts": "2026-04-20T13:25:14+05:30", "channel": "whatsapp", "role": "user", "text": "Priya wants a one to one Thursday morning. Is 11 free?"}
+{"id": "m0122", "ts": "2026-04-20T13:25:19+05:30", "channel": "whatsapp", "role": "assistant", "text": "Yes, Thursday 11:00 to 11:30 is open. Want me to accept her request?"}
+{"id": "m0123", "ts": "2026-04-20T13:26:06+05:30", "channel": "whatsapp", "role": "user", "text": "accept"}
+{"id": "m0124", "ts": "2026-04-20T13:26:14+05:30", "channel": "whatsapp", "role": "assistant", "text": "Accepted. Thursday 11:00 to 11:30, 1:1 with Priya."}
+{"id": "m0125", "ts": "2026-04-20T14:20:27+05:30", "channel": "whatsapp", "role": "user", "text": "Priya needs a slot for the design role interview this week. Tuesday 2pm works for me, tell her."}
+{"id": "m0126", "ts": "2026-04-20T14:20:34+05:30", "channel": "whatsapp", "role": "assistant", "text": "Told Priya on Slack that Tuesday 14:00 works. I have put a hold on your calendar for 14:00 to 15:00."}
+{"id": "m0127", "ts": "2026-04-20T14:31:03+05:30", "channel": "whatsapp", "role": "assistant", "text": "Priya replied: Tuesday 14:00 is fine, and the candidate is Anika."}
+{"id": "m0128", "ts": "2026-04-20T14:33:21+05:30", "channel": "whatsapp", "role": "user", "text": "good"}
+{"id": "m0129", "ts": "2026-04-20T15:30:24+05:30", "channel": "whatsapp", "role": "user", "text": "running to Arjun now"}
+{"id": "m0130", "ts": "2026-04-20T16:25:37+05:30", "channel": "whatsapp", "role": "user", "text": "Arjun says he can only get me the estimate by Wednesday evening, not midday. Fine by me."}
+{"id": "m0131", "ts": "2026-04-20T16:25:46+05:30", "channel": "whatsapp", "role": "assistant", "text": "That matches what you asked in the DM, so no change. I will still check in on Wednesday at 10:00."}
+{"id": "m0132", "ts": "2026-04-20T16:40:29+05:30", "channel": "web", "role": "user", "text": "Draft an agenda for my Thursday one to one with Priya. Keep it short."}
+{"id": "m0133", "ts": "2026-04-20T16:41:05+05:30", "channel": "web", "role": "assistant", "text": "Draft agenda, Thursday 11:00, 30 minutes:\\n1. Design hire: where the pipeline stands and next steps\\n2. Mobile: what is blocking the next release\\n3. Pricing: her input before next week's discussion\\n4. Anything she wants to raise\\nSend it to her?"}
+{"id": "m0134", "ts": "2026-04-20T16:44:08+05:30", "channel": "web", "role": "user", "text": "Replace item 3 with the offsite, I'll cover pricing another time."}
+{"id": "m0135", "ts": "2026-04-20T16:44:15+05:30", "channel": "web", "role": "assistant", "text": "Updated: 1. Design hire. 2. Mobile: what is blocking the next release. 3. June offsite dates (June 11 and 12 held, tentative). 4. Anything she wants to raise. Sent to Priya on Slack as the agenda for Thursday."}
+{"id": "m0136", "ts": "2026-04-20T16:58:11+05:30", "channel": "telegram", "role": "user", "text": "how do you spell liaison"}
+{"id": "m0137", "ts": "2026-04-20T16:58:15+05:30", "channel": "telegram", "role": "assistant", "text": "liaison."}
+{"id": "m0138", "ts": "2026-04-20T17:45:00+05:30", "channel": "telegram", "role": "assistant", "text": "Wrap-up, Monday:\\n- Closed: Planning, Arjun at 15:30, Kavya told to go live Wednesday, estimate questions sent to Arjun, Imran booked for Tuesday 17:00, Priya's Thursday 1:1 accepted.\\n- Open for tomorrow: standup 10:00, interview 14:00, webinar page review 15:30, Imran 17:00. Waiting on Arjun's estimate (Wednesday evening).\\nSources: calendar, Slack DMs, today's chat."}
+{"id": "m0139", "ts": "2026-04-20T18:00:04+05:30", "channel": "telegram", "role": "assistant", "text": "Reminder: pick up the dry cleaning."}
+{"id": "m0140", "ts": "2026-04-20T18:04:30+05:30", "channel": "telegram", "role": "user", "text": "on my way"}
+{"id": "m0141", "ts": "2026-04-20T19:12:33+05:30", "channel": "telegram", "role": "user", "text": "what did I tell Kavya this morning"}
+{"id": "m0142", "ts": "2026-04-20T19:12:40+05:30", "channel": "telegram", "role": "assistant", "text": "That the copy is fine and she should go live on Wednesday. Later you also asked me to send her the subject line suggestion."}
+{"id": "m0143", "ts": "2026-04-20T20:15:36+05:30", "channel": "web", "role": "user", "text": "Give me a quick explanation of per seat versus usage pricing, two lines each. I'm thinking about the Acme proposal."}
+{"id": "m0144", "ts": "2026-04-20T20:16:01+05:30", "channel": "web", "role": "assistant", "text": "Per seat: predictable revenue and easy to budget, but customers ration seats and the price ignores how much value they get. Usage based: scales with the value delivered and lowers the barrier to start, but bills vary month to month and procurement dislikes open-ended spend. For a large operations team, a base platform fee plus usage tiers is often the easiest to get approved."}
+{"id": "m0145", "ts": "2026-04-20T20:19:10+05:30", "channel": "web", "role": "user", "text": "Park that. We decide pricing next week with Priya, Arjun and Kavya."}
+{"id": "m0146", "ts": "2026-04-20T20:19:15+05:30", "channel": "web", "role": "assistant", "text": "Parked: pricing approach to be decided next week with Priya, Arjun and Kavya. I will raise it on Friday when you plan the week."}
+{"id": "m0147", "ts": "2026-04-20T20:34:32+05:30", "channel": "telegram", "role": "user", "text": "Set that up for tomorrow."}
+{"id": "m0148", "ts": "2026-04-20T20:34:41+05:30", "channel": "telegram", "role": "assistant", "text": "Which one? Tomorrow has the 10:00 standup, the 14:00 interview, the 15:30 webinar page review and the Imran call at 17:00. Or do you mean a reminder?"}
+{"id": "m0149", "ts": "2026-04-20T20:36:06+05:30", "channel": "telegram", "role": "user", "text": "the gym one, wake me up"}
+{"id": "m0150", "ts": "2026-04-20T20:36:13+05:30", "channel": "telegram", "role": "assistant", "text": "I cannot ring your phone, but I can message you. Set: 06:15 on Telegram, \"Gym 07:00, standup 10:00\"."}
+{"id": "m0151", "ts": "2026-04-20T20:36:21+05:30", "channel": "telegram", "role": "user", "text": "do that"}
+{"id": "m0152", "ts": "2026-04-20T20:36:26+05:30", "channel": "telegram", "role": "assistant", "text": "Set."}
+{"id": "m0153", "ts": "2026-04-21T06:15:03+05:30", "channel": "telegram", "role": "assistant", "text": "Gym 07:00, standup 10:00."}
+{"id": "m0154", "ts": "2026-04-21T06:16:37+05:30", "channel": "telegram", "role": "user", "text": "up, thanks"}
+{"id": "m0155", "ts": "2026-04-21T08:20:25+05:30", "channel": "telegram", "role": "user", "text": "stuck on the train, top three things today"}
+{"id": "m0156", "ts": "2026-04-21T08:20:34+05:30", "channel": "telegram", "role": "assistant", "text": "1. Interview with Anika at 14:00. 2. Webinar page review with Kavya at 15:30. 3. Call with Imran Qadri at 17:00. Standup is at 10:00."}
+{"id": "m0157", "ts": "2026-04-21T09:30:04+05:30", "channel": "whatsapp", "role": "assistant", "text": "Tuesday brief:\\n- Calendar: standup 10:00. Interview with Anika 14:00 to 15:00. Webinar page review with Kavya 15:30 to 16:00. Call with Imran Qadri 17:00 to 17:30. [Calendar]\\n- Mail: nothing waiting that needs a reply. [Inbox]\\n- Slack: Kavya will go live Wednesday and will confirm the webinar date today. Priya shared Anika's CV as a PDF. [Slack DMs]\\nSources: calendar, inbox, Slack DMs."}
+{"id": "m0158", "ts": "2026-04-21T09:44:46+05:30", "channel": "whatsapp", "role": "user", "text": "Remind me at 1:40 to look at Anika's CV before the interview."}
+{"id": "m0159", "ts": "2026-04-21T09:44:50+05:30", "channel": "whatsapp", "role": "assistant", "text": "Set for 13:40 today on WhatsApp."}
+{"id": "m0160", "ts": "2026-04-21T10:12:29+05:30", "channel": "whatsapp", "role": "user", "text": "Did the standup invite go to Priya too? She's in late."}
+{"id": "m0161", "ts": "2026-04-21T10:12:35+05:30", "channel": "whatsapp", "role": "assistant", "text": "It went to all three. Priya accepted at 09:20, Arjun and Kavya are in as well."}
+{"id": "m0162", "ts": "2026-04-21T10:47:30+05:30", "channel": "whatsapp", "role": "user", "text": "[voice note] Standup's done. There's a customer who's been complaining that exports are really slow. Arjun says they found something. I need a status I can actually use. Ask Arjun for an ETA and tell me what we can say to the customer."}
+{"id": "m0163", "ts": "2026-04-21T10:47:37+05:30", "channel": "whatsapp", "role": "assistant", "text": "Asking Arjun now."}
+{"id": "m0164", "ts": "2026-04-21T10:55:00+05:30", "channel": "whatsapp", "role": "assistant", "text": "Arjun replied: cause identified, the fix ships around 15:00 today, and the customer should retry after 16:00. He asks that you do not promise a root-cause write-up before Thursday."}
+{"id": "m0165", "ts": "2026-04-21T10:58:11+05:30", "channel": "web", "role": "user", "text": "Draft a short reply to the customer."}
+{"id": "m0166", "ts": "2026-04-21T10:58:18+05:30", "channel": "web", "role": "assistant", "text": "Draft:\\n\\n\"Hi [name], thank you for your patience. We have found the cause of the slow exports and a fix goes live around 15:00 today. Please retry after 16:00 and tell us if anything still looks off. We will follow up with a short explanation later this week.\\n\\nBest, R.\"\\n\\nI do not have the customer's name in this thread, so the draft uses a placeholder."}
+{"id": "m0167", "ts": "2026-04-21T11:03:40+05:30", "channel": "web", "role": "user", "text": "Good enough. Support will send it from the ticket, I'll hand it over."}
+{"id": "m0168", "ts": "2026-04-21T11:03:46+05:30", "channel": "web", "role": "assistant", "text": "Understood, I will not send it from the inbox."}
+{"id": "m0169", "ts": "2026-04-21T11:24:03+05:30", "channel": "web", "role": "assistant", "text": "Two questions before I post the update. Which Slack channel should support updates go to? And which Linear team owns the export problem?"}
+{"id": "m0170", "ts": "2026-04-21T11:30:00+05:30", "channel": "web", "role": "user", "text": "#ops is where support and ops stuff goes. #eng-weekly is for engineering updates."}
+{"id": "m0171", "ts": "2026-04-21T11:32:00+05:30", "channel": "web", "role": "user", "text": "Teams in Linear are Platform (Arjun), Growth (Kavya) and Mobile (Priya)."}
+{"id": "m0172", "ts": "2026-04-21T11:33:00+05:30", "channel": "web", "role": "assistant", "text": "Saved: Platform is Arjun's, Growth is Kavya's, Mobile is Priya's."}
+{"id": "m0173", "ts": "2026-04-21T11:35:31+05:30", "channel": "web", "role": "user", "text": "Post the export status to #ops."}
+{"id": "m0174", "ts": "2026-04-21T11:36:04+05:30", "channel": "web", "role": "assistant", "text": "Posted to #ops: \"Slow exports for one customer: cause found, fix ships around 15:00 today, customer to retry after 16:00. Owner: Arjun. Root-cause note due Thursday.\""}
+{"id": "m0175", "ts": "2026-04-21T11:39:37+05:30", "channel": "web", "role": "user", "text": "And a Linear issue in Platform for the root-cause note. Assign Arjun, due Thursday."}
+{"id": "m0176", "ts": "2026-04-21T11:39:42+05:30", "channel": "web", "role": "assistant", "text": "Created in Platform: \"Root-cause note: slow exports\", assigned to Arjun, due Thursday April 23."}
+{"id": "m0177", "ts": "2026-04-21T11:42:10+05:30", "channel": "web", "role": "user", "text": "Another one in Growth: webinar landing page QA, Kavya, due tomorrow."}
+{"id": "m0178", "ts": "2026-04-21T11:42:14+05:30", "channel": "web", "role": "assistant", "text": "Created in Growth: \"Webinar landing page QA\", assigned to Kavya, due Wednesday April 22."}
+{"id": "m0179", "ts": "2026-04-21T12:20:01+05:30", "channel": "whatsapp", "role": "assistant", "text": "Arjun asked for 15 minutes today. Open slots: 12:00 or 16:30."}
+{"id": "m0180", "ts": "2026-04-21T12:21:46+05:30", "channel": "whatsapp", "role": "user", "text": "16:30"}
+{"id": "m0181", "ts": "2026-04-21T12:25:05+05:30", "channel": "whatsapp", "role": "assistant", "text": "Arjun says 16:30 clashes with Priya's release prep and suggests 12:45 instead. That is inside your lunch window, so I held off."}
+{"id": "m0182", "ts": "2026-04-21T12:27:21+05:30", "channel": "whatsapp", "role": "user", "text": "Forget it, it was about the export fix, we've covered it"}
+{"id": "m0183", "ts": "2026-04-21T12:27:29+05:30", "channel": "whatsapp", "role": "assistant", "text": "Dropped. No meeting booked."}
+{"id": "m0184", "ts": "2026-04-21T12:48:05+05:30", "channel": "telegram", "role": "user", "text": "need a name for a coffee channel for the team, something dumb"}
+{"id": "m0185", "ts": "2026-04-21T12:48:11+05:30", "channel": "telegram", "role": "assistant", "text": "Three options: #filter-kaapi, #cold-brew-club, #one-more-cup."}
+{"id": "m0186", "ts": "2026-04-21T12:49:30+05:30", "channel": "telegram", "role": "user", "text": "one more cup"}
+{"id": "m0187", "ts": "2026-04-21T12:49:38+05:30", "channel": "telegram", "role": "assistant", "text": "Noted, though I have not created anything. Say the word if you want me to."}
+{"id": "m0188", "ts": "2026-04-21T13:12:06+05:30", "channel": "web", "role": "user", "text": "Rewrite this: \"We would like to reach out to schedule a time for us to potentially connect about the matter.\""}
+{"id": "m0189", "ts": "2026-04-21T13:12:11+05:30", "channel": "web", "role": "assistant", "text": "\"Could we find a time to talk this week?\""}
+{"id": "m0190", "ts": "2026-04-21T13:40:03+05:30", "channel": "whatsapp", "role": "assistant", "text": "Reminder: look at Anika's CV before the 14:00 interview. Priya shared it as a PDF in Slack this morning."}
+{"id": "m0191", "ts": "2026-04-21T14:00:14+05:30", "channel": "whatsapp", "role": "user", "text": "in the interview"}
+{"id": "m0192", "ts": "2026-04-21T15:05:22+05:30", "channel": "whatsapp", "role": "user", "text": "Interview done. Next step is a second round with Arjun. Find a slot next week with Priya and Arjun."}
+{"id": "m0193", "ts": "2026-04-21T15:06:02+05:30", "channel": "whatsapp", "role": "assistant", "text": "Wednesday April 29, 11:00 to 12:00 is free for you, Arjun and Priya. Hold it?"}
+{"id": "m0194", "ts": "2026-04-21T15:07:14+05:30", "channel": "whatsapp", "role": "user", "text": "yes"}
+{"id": "m0195", "ts": "2026-04-21T15:07:22+05:30", "channel": "whatsapp", "role": "assistant", "text": "Held and invites sent to Priya and Arjun. Title: \"Design candidate, second round\"."}
+{"id": "m0196", "ts": "2026-04-21T15:56:16+05:30", "channel": "whatsapp", "role": "user", "text": "Webinar page review done. Kavya will fix the headline and the sign-up form before Thursday. Note it."}
+{"id": "m0197", "ts": "2026-04-21T15:56:23+05:30", "channel": "whatsapp", "role": "assistant", "text": "Noted, and I added a comment on the Growth issue: \"Fix headline and sign-up form before Thursday.\""}
+{"id": "m0198", "ts": "2026-04-21T16:08:35+05:30", "channel": "web", "role": "user", "text": "Kavya wants the webinar page live Thursday, not Wednesday. Update the Linear issue and tell her fine."}
+{"id": "m0199", "ts": "2026-04-21T16:08:40+05:30", "channel": "web", "role": "assistant", "text": "Updated: \"Webinar landing page QA\" is now due Thursday April 23. Told Kavya on Slack that Thursday is fine."}
+{"id": "m0200", "ts": "2026-04-21T16:20:12+05:30", "channel": "telegram", "role": "user", "text": "will it rain tonight"}
+{"id": "m0201", "ts": "2026-04-21T16:20:19+05:30", "channel": "telegram", "role": "assistant", "text": "No rain in the forecast for Mumbai. Warm and humid, around 29C at 21:00."}
+{"id": "m0202", "ts": "2026-04-21T17:45:02+05:30", "channel": "telegram", "role": "assistant", "text": "Wrap-up, Tuesday:\\n- Closed: slow exports status posted to #ops and tracked in Platform, interview done, second round held for April 29, webinar page moved to Thursday, Imran call under way.\\n- Open for tomorrow: Arjun's estimate (Wednesday evening), Wednesday 10:00 check-in from me, nothing else booked.\\nSources: calendar, Slack, Linear."}
+{"id": "m0203", "ts": "2026-04-21T18:10:24+05:30", "channel": "telegram", "role": "user", "text": "Call with Imran done. He wants our current MSA draft by tomorrow noon and will send a review checklist by Friday."}
+{"id": "m0204", "ts": "2026-04-21T18:10:33+05:30", "channel": "telegram", "role": "assistant", "text": "Reminder set for Wednesday 11:30: send Imran Qadri the current MSA draft. Checklist expected from him by Friday April 24."}
+{"id": "m0205", "ts": "2026-04-21T18:12:25+05:30", "channel": "telegram", "role": "user", "text": "good"}
+{"id": "m0206", "ts": "2026-04-21T18:30:03+05:30", "channel": "telegram", "role": "user", "text": "Did Kavya confirm the webinar date?"}
+{"id": "m0207", "ts": "2026-04-21T18:30:09+05:30", "channel": "telegram", "role": "assistant", "text": "Not yet. She has not posted a date in Slack or sent one by mail."}
+{"id": "m0208", "ts": "2026-04-21T19:40:33+05:30", "channel": "web", "role": "user", "text": "Summarise what's open with Acme in three bullets."}
+{"id": "m0209", "ts": "2026-04-21T19:40:40+05:30", "channel": "web", "role": "assistant", "text": "- Arjun's effort estimate for the proposal is due tomorrow evening.\\n- The standard MSA is with Imran Qadri for review; his checklist is due Friday.\\n- The proposal draft has no delivery date or pricing yet.\\nSources: our chat, Monday to today."}
+{"id": "m0210", "ts": "2026-04-21T20:05:30+05:30", "channel": "telegram", "role": "user", "text": "how many days until Neel's wedding"}
+{"id": "m0211", "ts": "2026-04-21T20:05:35+05:30", "channel": "telegram", "role": "assistant", "text": "46 days to Saturday June 6."}
+{"id": "m0212", "ts": "2026-04-21T21:02:04+05:30", "channel": "telegram", "role": "user", "text": "Remind me to look at the draft proposal over the weekend too, not just Friday"}
+{"id": "m0213", "ts": "2026-04-21T21:02:11+05:30", "channel": "telegram", "role": "assistant", "text": "Which day, Saturday or Sunday, and what time?"}
+{"id": "m0214", "ts": "2026-04-21T21:03:41+05:30", "channel": "telegram", "role": "user", "text": "Saturday morning, 10:15"}
+{"id": "m0215", "ts": "2026-04-21T21:03:48+05:30", "channel": "telegram", "role": "assistant", "text": "Set for Saturday April 25 at 10:15 on WhatsApp: \"Look over the proposal.\""}
+{"id": "m0216", "ts": "2026-04-21T21:30:06+05:30", "channel": "telegram", "role": "user", "text": "Same gym message on Thursday please"}
+{"id": "m0217", "ts": "2026-04-21T21:30:12+05:30", "channel": "telegram", "role": "assistant", "text": "Set for Thursday 06:15 on Telegram: \"Gym 07:00.\""}
+{"id": "m0218", "ts": "2026-04-22T08:50:17+05:30", "channel": "whatsapp", "role": "user", "text": "Wednesday, my planning day. What is on?"}
+{"id": "m0219", "ts": "2026-04-22T08:50:26+05:30", "channel": "whatsapp", "role": "assistant", "text": "Nothing booked today. Tasks I am holding for you: send Imran Qadri the MSA draft by noon (reminder at 11:30), and Arjun's estimate arrives this evening. Sources: calendar, our chat."}
+{"id": "m0220", "ts": "2026-04-22T09:34:12+05:30", "channel": "whatsapp", "role": "user", "text": "Priya just told me the candidate pool is thin. Do I need to do anything?"}
+{"id": "m0221", "ts": "2026-04-22T09:34:18+05:30", "channel": "whatsapp", "role": "assistant", "text": "Not that I can see. If you want, I can add a line to Thursday's 1:1 agenda with Priya. It already has the design hire as item 1."}
+{"id": "m0222", "ts": "2026-04-22T09:35:19+05:30", "channel": "whatsapp", "role": "user", "text": "No, leave it"}
+{"id": "m0223", "ts": "2026-04-22T09:35:28+05:30", "channel": "whatsapp", "role": "assistant", "text": "Left as is."}
+{"id": "m0224", "ts": "2026-04-22T10:00:01+05:30", "channel": "whatsapp", "role": "assistant", "text": "Check-in as promised: Arjun's estimate for the Acme proposal is due this evening. Anything you need from me before then?"}
+{"id": "m0225", "ts": "2026-04-22T10:02:32+05:30", "channel": "whatsapp", "role": "user", "text": "No. If it lands after 6, don't ping me, I'll ask for it."}
+{"id": "m0226", "ts": "2026-04-22T10:02:41+05:30", "channel": "whatsapp", "role": "assistant", "text": "Understood. If it arrives after 18:00 I will hold it until you ask."}
+{"id": "m0227", "ts": "2026-04-22T10:18:46+05:30", "channel": "web", "role": "user", "text": "Explain the difference between an MSA and an SOW in plain language. I want to say it right when I talk to Maya at Acme."}
+{"id": "m0228", "ts": "2026-04-22T10:19:06+05:30", "channel": "web", "role": "assistant", "text": "An MSA is the master agreement: the standing terms such as liability, payment, confidentiality and termination, signed once. An SOW is the statement of work: what is being delivered under that agreement, with scope, dates and price, and you can have several SOWs under one MSA. When Acme asks about legal terms, point to the MSA. When they ask about scope or dates, point to the SOW."}
+{"id": "m0229", "ts": "2026-04-22T10:24:17+05:30", "channel": "web", "role": "user", "text": "Perfect. Which one is the proposal closer to?"}
+{"id": "m0230", "ts": "2026-04-22T10:24:26+05:30", "channel": "web", "role": "assistant", "text": "The proposal is closer to an SOW, since it covers scope, timeline and price, but it will sit under the MSA once both are signed."}
+{"id": "m0231", "ts": "2026-04-22T11:30:03+05:30", "channel": "whatsapp", "role": "assistant", "text": "Reminder: send Imran Qadri the current MSA draft. He asked for it by noon."}
+{"id": "m0232", "ts": "2026-04-22T11:33:39+05:30", "channel": "web", "role": "user", "text": "[attachment: MSA_draft_v4.docx] Send this to Imran."}
+{"id": "m0233", "ts": "2026-04-22T11:33:45+05:30", "channel": "web", "role": "assistant", "text": "Draft mail to Imran Qadri, attachment MSA_draft_v4.docx:\\n\\nSubject: MSA draft v4\\n\\nHi Imran,\\n\\nAttached is our current MSA draft. As discussed on the call, I would value your view on the liability and payment sections ahead of your checklist on Friday.\\n\\nBest, R.\\n\\nSend?"}
+{"id": "m0234", "ts": "2026-04-22T11:36:09+05:30", "channel": "web", "role": "user", "text": "Add one line: a larger prospect may ask for changes, so I want to be ready. No names."}
+{"id": "m0235", "ts": "2026-04-22T11:36:15+05:30", "channel": "web", "role": "assistant", "text": "Revised:\\n\\nSubject: MSA draft v4\\n\\nHi Imran,\\n\\nAttached is our current MSA draft. As discussed on the call, I would value your view on the liability and payment sections ahead of your checklist on Friday. A larger prospect may ask for changes, so I want us to be ready.\\n\\nBest, R.\\n\\nSend?"}
+{"id": "m0236", "ts": "2026-04-22T11:37:08+05:30", "channel": "web", "role": "user", "text": "send"}
+{"id": "m0237", "ts": "2026-04-22T11:37:14+05:30", "channel": "web", "role": "assistant", "text": "Sent to Imran Qadri with MSA_draft_v4.docx attached."}
+{"id": "m0238", "ts": "2026-04-22T11:50:39+05:30", "channel": "whatsapp", "role": "user", "text": "How long was the Imran call yesterday? I need to log it."}
+{"id": "m0239", "ts": "2026-04-22T11:50:47+05:30", "channel": "whatsapp", "role": "assistant", "text": "It was booked for 17:00 to 17:30. I cannot see the actual duration."}
+{"id": "m0240", "ts": "2026-04-22T12:10:28+05:30", "channel": "web", "role": "user", "text": "Offsite: give me three places within three hours' drive of Mumbai. Quiet, mid-range."}
+{"id": "m0241", "ts": "2026-04-22T12:11:04+05:30", "channel": "web", "role": "assistant", "text": "I cannot check live availability or prices, so these are general suggestions:\\n- Lonavala area: about 2.5 hours, many retreat-style properties.\\n- Karjat: about 2 hours, quieter, good for small groups.\\n- Igatpuri: about 3 hours, cooler, fewer options.\\nYou would need to call or mail properties to check June 11 and 12."}
+{"id": "m0242", "ts": "2026-04-22T12:15:43+05:30", "channel": "web", "role": "user", "text": "Karjat or Lonavala. Park it for now."}
+{"id": "m0243", "ts": "2026-04-22T12:15:47+05:30", "channel": "web", "role": "assistant", "text": "Parked: Karjat or Lonavala for the June offsite, to be decided."}
+{"id": "m0244", "ts": "2026-04-22T12:42:07+05:30", "channel": "telegram", "role": "user", "text": "is it humid or is it me"}
+{"id": "m0245", "ts": "2026-04-22T12:42:11+05:30", "channel": "telegram", "role": "assistant", "text": "Humidity is 78 percent, so not just you."}
+{"id": "m0246", "ts": "2026-04-22T12:55:03+05:30", "channel": "whatsapp", "role": "user", "text": "Note: black filter coffee, no sugar, in the morning. Masala chai after lunch."}
+{"id": "m0247", "ts": "2026-04-22T12:55:09+05:30", "channel": "whatsapp", "role": "assistant", "text": "Saved: black filter coffee with no sugar in the morning, masala chai after lunch."}
+{"id": "m0248", "ts": "2026-04-22T13:05:09+05:30", "channel": "whatsapp", "role": "user", "text": "👍 thanks for earlier"}
+{"id": "m0249", "ts": "2026-04-22T13:05:18+05:30", "channel": "whatsapp", "role": "assistant", "text": "Noted."}
+{"id": "m0250", "ts": "2026-04-22T13:48:39+05:30", "channel": "whatsapp", "role": "user", "text": "what's the INR to USD rate today"}
+{"id": "m0251", "ts": "2026-04-22T13:48:45+05:30", "channel": "whatsapp", "role": "assistant", "text": "I cannot pull live exchange rates. If you tell me a rate, I can do the sum."}
+{"id": "m0252", "ts": "2026-04-22T14:10:02+05:30", "channel": "whatsapp", "role": "assistant", "text": "Kavya asks for 20 minutes tomorrow at 11:30 to go over webinar numbers. Accept?"}
+{"id": "m0253", "ts": "2026-04-22T14:11:05+05:30", "channel": "whatsapp", "role": "user", "text": "ok yes"}
+{"id": "m0254", "ts": "2026-04-22T14:11:13+05:30", "channel": "whatsapp", "role": "assistant", "text": "Accepted: Thursday 11:30 to 11:50 with Kavya."}
+{"id": "m0255", "ts": "2026-04-22T14:14:30+05:30", "channel": "whatsapp", "role": "user", "text": "Actually scratch that, make it Friday at 11. Tell her."}
+{"id": "m0256", "ts": "2026-04-22T14:14:39+05:30", "channel": "whatsapp", "role": "assistant", "text": "Moved to Friday April 24, 11:00 to 11:20, and told Kavya on Slack."}
+{"id": "m0257", "ts": "2026-04-22T14:30:13+05:30", "channel": "web", "role": "user", "text": "Block two hours on Thursday afternoon for proposal writing. No meetings."}
+{"id": "m0258", "ts": "2026-04-22T14:30:19+05:30", "channel": "web", "role": "assistant", "text": "Blocked: Thursday April 23, 13:30 to 15:30, \"Proposal writing\". Nothing else is booked on Thursday after your 11:00 with Priya."}
+{"id": "m0259", "ts": "2026-04-22T14:36:18+05:30", "channel": "whatsapp", "role": "user", "text": "Can you push that to Friday?"}
+{"id": "m0260", "ts": "2026-04-22T14:36:24+05:30", "channel": "whatsapp", "role": "assistant", "text": "Which one? The proposal writing block, the Kavya session, or something else?"}
+{"id": "m0261", "ts": "2026-04-22T14:37:33+05:30", "channel": "whatsapp", "role": "user", "text": "never mind, the Kavya one's already on Friday"}
+{"id": "m0262", "ts": "2026-04-22T14:37:40+05:30", "channel": "whatsapp", "role": "assistant", "text": "Yes, Friday 11:00. Nothing to push."}
+{"id": "m0263", "ts": "2026-04-22T14:55:27+05:30", "channel": "web", "role": "user", "text": "Pull together everything I said about Acme this week."}
+{"id": "m0264", "ts": "2026-04-22T14:55:33+05:30", "channel": "web", "role": "assistant", "text": "Acme this week:\\n- The proposal is the main open item, with pricing to be decided next week.\\n- Arjun's effort estimate arrives this evening.\\n- Standard MSA is with Imran Qadri, draft sent today.\\n- No mail has gone to Acme yet.\\nSources: our chat, Monday to now."}
+{"id": "m0265", "ts": "2026-04-22T15:20:15+05:30", "channel": "telegram", "role": "user", "text": "Can you remind me tomorrow at 9:20 to carry the laptop charger?"}
+{"id": "m0266", "ts": "2026-04-22T15:20:19+05:30", "channel": "telegram", "role": "assistant", "text": "Set for Thursday 09:20 on WhatsApp."}
+{"id": "m0267", "ts": "2026-04-22T16:36:03+05:30", "channel": "telegram", "role": "assistant", "text": "Arjun asks for 30 minutes next Wednesday, April 29, at 16:30 for an infra review. Accept?"}
+{"id": "m0268", "ts": "2026-04-22T16:38:25+05:30", "channel": "telegram", "role": "user", "text": "no"}
+{"id": "m0269", "ts": "2026-04-22T16:40:00+05:30", "channel": "telegram", "role": "user", "text": "Wednesdays I can't do anything after 3pm."}
+{"id": "m0270", "ts": "2026-04-22T16:40:00+05:30", "channel": "telegram", "role": "assistant", "text": "Got it: no meetings on Wednesdays after 15:00."}
+{"id": "m0271", "ts": "2026-04-22T16:42:06+05:30", "channel": "telegram", "role": "user", "text": "Offer him 2:30 that day, or Thursday."}
+{"id": "m0272", "ts": "2026-04-22T16:42:13+05:30", "channel": "telegram", "role": "assistant", "text": "Offered Arjun Wednesday April 29 at 14:30 to 15:00, or Thursday April 30 any time after 11:00."}
+{"id": "m0273", "ts": "2026-04-22T16:45:21+05:30", "channel": "telegram", "role": "user", "text": "And move the Wednesday wrap-up to quarter to three from next week."}
+{"id": "m0274", "ts": "2026-04-22T16:45:30+05:30", "channel": "telegram", "role": "assistant", "text": "From next Wednesday the wrap-up goes at 14:45. Today's still goes at 17:45, as set."}
+{"id": "m0275", "ts": "2026-04-22T17:05:06+05:30", "channel": "telegram", "role": "assistant", "text": "Arjun accepted Wednesday April 29, 14:30 to 15:00. It is on your calendar and ends before the 15:00 cutoff."}
+{"id": "m0276", "ts": "2026-04-22T17:45:02+05:30", "channel": "telegram", "role": "assistant", "text": "Wrap-up, Wednesday:\\n- Closed: MSA draft sent to Imran, Kavya moved to Friday 11:00, proposal writing block set for Thursday, Arjun's infra review set for April 29 at 14:30.\\n- Open for tomorrow: Priya 1:1 at 11:00 (she is in Pune, so on her phone), proposal writing 13:30 to 15:30. Arjun's estimate is still to come.\\nSources: calendar, Slack, mail."}
+{"id": "m0277", "ts": "2026-04-22T18:35:09+05:30", "channel": "telegram", "role": "user", "text": "Anything about Dev Anand today? I think Brightline mailed."}
+{"id": "m0278", "ts": "2026-04-22T18:35:13+05:30", "channel": "telegram", "role": "assistant", "text": "One automated notice from Brightline Hosting about a maintenance window on Sunday night. Nothing from Dev Anand Rao himself."}
+{"id": "m0279", "ts": "2026-04-22T19:10:14+05:30", "channel": "telegram", "role": "user", "text": "ok"}
+{"id": "m0280", "ts": "2026-04-22T19:52:05+05:30", "channel": "telegram", "role": "user", "text": "movie for tonight, nothing heavy"}
+{"id": "m0281", "ts": "2026-04-22T19:52:11+05:30", "channel": "telegram", "role": "assistant", "text": "Something like a quiet comedy-drama. I cannot see what is available to you, so tell me the service's list if you want me to pick."}
+{"id": "m0282", "ts": "2026-04-22T21:10:15+05:30", "channel": "telegram", "role": "user", "text": "Did Arjun send the estimate?"}
+{"id": "m0283", "ts": "2026-04-22T21:10:21+05:30", "channel": "telegram", "role": "assistant", "text": "Yes, at 19:05 in your DMs. Five weeks of work with no slack, six with slack. May 29 is achievable if prep starts the week of April 27 while the contract is still being finalised. He needs about two weeks of Priya's time and one week of Kavya's."}
+{"id": "m0284", "ts": "2026-04-22T21:13:32+05:30", "channel": "telegram", "role": "user", "text": "Good. Hold it for the morning, I'll deal with it tomorrow."}
+{"id": "m0285", "ts": "2026-04-22T21:13:41+05:30", "channel": "telegram", "role": "assistant", "text": "Held. Your proposal writing block tomorrow is 13:30 to 15:30."}
+{"id": "m0286", "ts": "2026-04-23T06:15:06+05:30", "channel": "telegram", "role": "assistant", "text": "Gym 07:00."}
+{"id": "m0287", "ts": "2026-04-23T06:16:06+05:30", "channel": "telegram", "role": "user", "text": "up"}
+{"id": "m0288", "ts": "2026-04-23T09:10:39+05:30", "channel": "telegram", "role": "user", "text": "late train, anything before 10?"}
+{"id": "m0289", "ts": "2026-04-23T09:10:45+05:30", "channel": "telegram", "role": "assistant", "text": "Nothing before the brief at 09:30."}
+{"id": "m0290", "ts": "2026-04-23T09:20:06+05:30", "channel": "whatsapp", "role": "assistant", "text": "Reminder: carry the laptop charger."}
+{"id": "m0291", "ts": "2026-04-23T09:30:03+05:30", "channel": "whatsapp", "role": "assistant", "text": "Thursday brief:\\n- Calendar: 1:1 with Priya 11:00 to 11:30 (video). Proposal writing 13:30 to 15:30. [Calendar]\\n- Mail: nothing needs a reply. Brightline Hosting sent a maintenance notice for Sunday night, no action. [Inbox]\\n- Slack: Arjun's Acme estimate arrived last night. Kavya's webinar page is due live today. Root-cause note on the slow exports is due from Arjun. [Slack, Linear]\\nSources: calendar, inbox, Slack DMs, Linear."}
+{"id": "m0292", "ts": "2026-04-23T09:41:33+05:30", "channel": "whatsapp", "role": "user", "text": "[voice note] Morning. About Arjun's estimate. Five weeks without slack, six with slack. I think we can go with the end of May, but let me think it through while I write the proposal today. I'll tell you tomorrow what date goes in."}
+{"id": "m0293", "ts": "2026-04-23T09:41:40+05:30", "channel": "whatsapp", "role": "assistant", "text": "Understood. I will leave the delivery date blank in the draft until you confirm it, and I will not mention the estimate to anyone outside the team."}
+{"id": "m0294", "ts": "2026-04-23T10:02:00+05:30", "channel": "web", "role": "user", "text": "Priya works from Pune on Thursdays, so she is on her phone then. Keep that in mind when scheduling."}
+{"id": "m0295", "ts": "2026-04-23T10:03:00+05:30", "channel": "web", "role": "assistant", "text": "Noted. I will mention that Priya joins by phone when I propose a Thursday."}
+{"id": "m0296", "ts": "2026-04-23T10:04:19+05:30", "channel": "web", "role": "user", "text": "Change the 11:00 with Priya to a phone call, no video."}
+{"id": "m0297", "ts": "2026-04-23T10:04:24+05:30", "channel": "web", "role": "assistant", "text": "Updated: 11:00 to 11:30 is now a phone call with no video link. The invite shows \"Phone call, Priya in Pune\"."}
+{"id": "m0298", "ts": "2026-04-23T10:11:13+05:30", "channel": "web", "role": "user", "text": "Also her agenda from Monday: still the four items?"}
+{"id": "m0299", "ts": "2026-04-23T10:11:18+05:30", "channel": "web", "role": "assistant", "text": "Yes: design hire, Mobile release blockers, June offsite dates, and anything she wants to raise."}
+{"id": "m0300", "ts": "2026-04-23T10:30:50+05:30", "channel": "web", "role": "user", "text": "Our annual hosting plan with Brightline renews in June. I want to see whether we can drop a tier. Draft a note to Dev Anand Rao asking for the tier options and pricing."}
+{"id": "m0301", "ts": "2026-04-23T10:31:05+05:30", "channel": "web", "role": "assistant", "text": "Draft to Dev Anand Rao:\\n\\nSubject: Hosting plan renewal, tier options\\n\\nHi Dev Anand,\\n\\nOur annual plan comes up for renewal in June. Before then I would like to understand the tier options and what each costs, particularly any tier below ours. Could you send a comparison?\\n\\nBest, R.\\n\\nSend?"}
+{"id": "m0302", "ts": "2026-04-23T10:35:05+05:30", "channel": "web", "role": "user", "text": "His team is in Chennai, so ask whether night support is covered by them or a partner."}
+{"id": "m0303", "ts": "2026-04-23T10:35:14+05:30", "channel": "web", "role": "assistant", "text": "Revised:\\n\\nSubject: Hosting plan renewal, tier options\\n\\nHi Dev Anand,\\n\\nOur annual plan comes up for renewal in June. Before then I would like to understand the tier options and what each costs, particularly any tier below ours. Could you also confirm whether night support comes from your Chennai team or a partner?\\n\\nBest, R.\\n\\nSend?"}
+{"id": "m0304", "ts": "2026-04-23T10:38:43+05:30", "channel": "web", "role": "user", "text": "Shorter. And ask for it by next Thursday."}
+{"id": "m0305", "ts": "2026-04-23T10:38:51+05:30", "channel": "web", "role": "assistant", "text": "Revised:\\n\\nSubject: Hosting plan renewal\\n\\nHi Dev Anand,\\n\\nCould you send a comparison of the tier options and prices ahead of our June renewal, including whether night support comes from your Chennai team or a partner? By next Thursday would be ideal.\\n\\nBest, R.\\n\\nSend?"}
+{"id": "m0306", "ts": "2026-04-23T10:41:13+05:30", "channel": "web", "role": "user", "text": "Actually scratch that. I'll ring him, it's quicker with Dev. Keep the draft."}
+{"id": "m0307", "ts": "2026-04-23T10:41:22+05:30", "channel": "web", "role": "assistant", "text": "Saved as a draft, not sent. Want a reminder to ring him?"}
+{"id": "m0308", "ts": "2026-04-23T10:42:36+05:30", "channel": "web", "role": "user", "text": "Tomorrow at 2."}
+{"id": "m0309", "ts": "2026-04-23T10:42:43+05:30", "channel": "web", "role": "assistant", "text": "Set for Friday April 24 at 14:00 on WhatsApp."}
+{"id": "m0310", "ts": "2026-04-23T11:00:19+05:30", "channel": "whatsapp", "role": "user", "text": "on with Priya"}
+{"id": "m0311", "ts": "2026-04-23T11:36:23+05:30", "channel": "whatsapp", "role": "user", "text": "1:1 done. Priya will run a first round with another design candidate, Dhruv, next Monday at 2. Hold it for me."}
+{"id": "m0312", "ts": "2026-04-23T11:36:31+05:30", "channel": "whatsapp", "role": "assistant", "text": "Held Monday April 27, 14:00 to 15:00, \"Design candidate, Dhruv (with Priya)\". Is Priya sending an invite, or should I?"}
+{"id": "m0313", "ts": "2026-04-23T11:37:26+05:30", "channel": "whatsapp", "role": "user", "text": "she is"}
+{"id": "m0314", "ts": "2026-04-23T11:37:35+05:30", "channel": "whatsapp", "role": "assistant", "text": "Then I will leave it as a hold on your side only."}
+{"id": "m0315", "ts": "2026-04-23T11:55:15+05:30", "channel": "web", "role": "user", "text": "Kavya's page is live. Draft a short LinkedIn post from me. Don't give the date, she hasn't confirmed it."}
+{"id": "m0316", "ts": "2026-04-23T11:55:21+05:30", "channel": "web", "role": "assistant", "text": "Draft:\\n\\n\"We have opened registration for our spring webinar for teams who want to spend less time on reporting. A practical session, no sales pitch. Details and sign-up on the page linked below.\"\\n\\nThe link is not included since I do not have it. Want it warmer or shorter?"}
+{"id": "m0317", "ts": "2026-04-23T11:58:07+05:30", "channel": "web", "role": "user", "text": "Warmer, but hold it. I'll post when Kavya confirms the date."}
+{"id": "m0318", "ts": "2026-04-23T11:58:16+05:30", "channel": "web", "role": "assistant", "text": "Held. I will not post anything, and I will ask Kavya for the date on Monday if it is still open."}
+{"id": "m0319", "ts": "2026-04-23T12:05:13+05:30", "channel": "whatsapp", "role": "user", "text": "[voice note] Going to lunch now, it's early, hopefully the queue is shorter."}
+{"id": "m0320", "ts": "2026-04-23T12:05:18+05:30", "channel": "whatsapp", "role": "assistant", "text": "Noted. Next item is the proposal block at 13:30."}
+{"id": "m0321", "ts": "2026-04-23T12:40:36+05:30", "channel": "whatsapp", "role": "user", "text": "Maya mentioned that Sunita Pillai from Acme procurement will join once the proposal is out. Note that."}
+{"id": "m0322", "ts": "2026-04-23T12:40:40+05:30", "channel": "whatsapp", "role": "assistant", "text": "Saved: Sunita Pillai, Acme procurement, will be involved after the proposal goes out."}
+{"id": "m0323", "ts": "2026-04-23T12:52:03+05:30", "channel": "telegram", "role": "user", "text": "lunch was a disaster, the queue was 25 minutes"}
+{"id": "m0324", "ts": "2026-04-23T12:52:10+05:30", "channel": "telegram", "role": "assistant", "text": "Next time I can set a reminder to leave at 12:15 if you want to beat the queue."}
+{"id": "m0325", "ts": "2026-04-23T12:53:21+05:30", "channel": "telegram", "role": "user", "text": "do that tomorrow, not today"}
+{"id": "m0326", "ts": "2026-04-23T12:53:29+05:30", "channel": "telegram", "role": "assistant", "text": "Set for Friday 12:15 on WhatsApp."}
+{"id": "m0327", "ts": "2026-04-23T13:44:16+05:30", "channel": "telegram", "role": "user", "text": "Don't disturb me till 3:30 unless it's Arjun or an escalation."}
+{"id": "m0328", "ts": "2026-04-23T13:44:23+05:30", "channel": "telegram", "role": "assistant", "text": "Understood. Holding everything else until 15:30."}
+{"id": "m0329", "ts": "2026-04-23T14:05:41+05:30", "channel": "web", "role": "user", "text": "How should I word payment terms in a proposal? Our standard is net 30."}
+{"id": "m0330", "ts": "2026-04-23T14:05:46+05:30", "channel": "web", "role": "assistant", "text": "Three options:\\n1. \"Invoices are payable within 30 days of the invoice date.\"\\n2. \"Payment terms: net 30 from the date of invoice.\"\\n3. \"Invoices are issued at each milestone and are payable within 30 days of receipt.\"\\nIf the work is milestone based, the third is the clearest."}
+{"id": "m0331", "ts": "2026-04-23T14:09:17+05:30", "channel": "web", "role": "user", "text": "Second one. The standard is net 30, put that down as our default."}
+{"id": "m0332", "ts": "2026-04-23T14:09:26+05:30", "channel": "web", "role": "assistant", "text": "Saved: Kestrel Works standard payment terms are net 30 from invoice date."}
+{"id": "m0333", "ts": "2026-04-23T14:40:10+05:30", "channel": "web", "role": "user", "text": "Write me an opening paragraph for the proposal. Warm, not salesy, thanks them for the time."}
+{"id": "m0334", "ts": "2026-04-23T14:41:02+05:30", "channel": "web", "role": "assistant", "text": "Draft:\\n\\n\"Thank you for the time you and your team have given us over the past few weeks. This proposal sets out our approach, the delivery plan, the commercial terms and how we would work with your team from the first week. We have kept it short on purpose, and we would be glad to walk you through it.\""}
+{"id": "m0335", "ts": "2026-04-23T14:46:21+05:30", "channel": "web", "role": "user", "text": "Replace \"over the past few weeks\" with \"so far\"."}
+{"id": "m0336", "ts": "2026-04-23T14:46:29+05:30", "channel": "web", "role": "assistant", "text": "Updated: \"Thank you for the time you and your team have given us so far.\""}
+{"id": "m0337", "ts": "2026-04-23T15:36:18+05:30", "channel": "web", "role": "user", "text": "What's still open on the proposal?"}
+{"id": "m0338", "ts": "2026-04-23T15:36:26+05:30", "channel": "web", "role": "assistant", "text": "Open items: delivery date (waiting on your decision), pricing table, and a cover note. Done: opening paragraph, payment terms (net 30). Sources: today's chat."}
+{"id": "m0339", "ts": "2026-04-23T15:48:00+05:30", "channel": "whatsapp", "role": "assistant", "text": "Held during your block: two newsletters, Kavya confirming the page is live, and a question from Priya about Friday. Nothing urgent."}
+{"id": "m0340", "ts": "2026-04-23T15:50:28+05:30", "channel": "whatsapp", "role": "user", "text": "What's Priya's question"}
+{"id": "m0341", "ts": "2026-04-23T15:50:32+05:30", "channel": "whatsapp", "role": "assistant", "text": "She asked whether you want her to bring Anika's CV to the second round or whether Arjun already has it. Arjun has it."}
+{"id": "m0342", "ts": "2026-04-23T15:51:18+05:30", "channel": "whatsapp", "role": "user", "text": "tell her thanks, fine"}
+{"id": "m0343", "ts": "2026-04-23T15:51:26+05:30", "channel": "whatsapp", "role": "assistant", "text": "Told Priya on Slack."}
+{"id": "m0344", "ts": "2026-04-23T17:45:03+05:30", "channel": "telegram", "role": "assistant", "text": "Wrap-up, Thursday:\\n- Closed: Priya 1:1, Dhruv's first round held for Monday 14:00, payment terms recorded as net 30, Dev Anand note drafted and held (you will ring him tomorrow at 14:00), Sunita Pillai noted.\\n- Open for tomorrow: delivery date for the proposal, pricing table, Kavya at 11:00, standup 10:00.\\nSources: calendar, Slack, mail drafts."}
+{"id": "m0345", "ts": "2026-04-23T18:34:29+05:30", "channel": "telegram", "role": "user", "text": "Remind me Monday to RSVP for Neel's wedding. The deadline is the 30th."}
+{"id": "m0346", "ts": "2026-04-23T18:34:34+05:30", "channel": "telegram", "role": "assistant", "text": "Set for Monday April 27 at 18:30 on Telegram."}
+{"id": "m0347", "ts": "2026-04-23T19:25:36+05:30", "channel": "telegram", "role": "user", "text": "Draft a thank-you to Imran for the call"}
+{"id": "m0348", "ts": "2026-04-23T19:25:44+05:30", "channel": "telegram", "role": "assistant", "text": "Draft:\\n\\n\"Hi Imran, thank you for the time on Tuesday. I look forward to your checklist on Friday.\\n\\nBest, R.\"\\n\\nSend?"}
+{"id": "m0349", "ts": "2026-04-23T19:27:28+05:30", "channel": "telegram", "role": "user", "text": "no, not needed. He'll think I'm nagging."}
+{"id": "m0350", "ts": "2026-04-23T19:27:37+05:30", "channel": "telegram", "role": "assistant", "text": "Not sent."}
+{"id": "m0351", "ts": "2026-04-23T20:18:12+05:30", "channel": "telegram", "role": "user", "text": "What does tomorrow look like?"}
+{"id": "m0352", "ts": "2026-04-23T20:18:16+05:30", "channel": "telegram", "role": "assistant", "text": "Friday: standup 10:00, Kavya at 11:00, ring Dev Anand at 14:00, wrap-up at 15:30. Nothing after 16:00."}
+{"id": "m0353", "ts": "2026-04-23T21:05:34+05:30", "channel": "telegram", "role": "user", "text": "what did I actually get done this week, two lines"}
+{"id": "m0354", "ts": "2026-04-23T21:05:41+05:30", "channel": "telegram", "role": "assistant", "text": "Booked Imran and sent him the MSA draft, got Arjun's estimate, held the design interviews, and drafted the proposal opening and payment terms. Still open: delivery date, pricing table, cover note."}
+{"id": "m0355", "ts": "2026-04-24T08:42:35+05:30", "channel": "telegram", "role": "user", "text": "Friday. Haven't looked at anything yet. Anything blowing up?"}
+{"id": "m0356", "ts": "2026-04-24T08:42:40+05:30", "channel": "telegram", "role": "assistant", "text": "No escalations overnight. The slow exports ticket is closed on the support side. Brief arrives at 09:30."}
+{"id": "m0357", "ts": "2026-04-24T09:30:06+05:30", "channel": "whatsapp", "role": "assistant", "text": "Friday brief:\\n- Calendar: standup 10:00. Kavya at 11:00 for 20 minutes. Ring Dev Anand at 14:00 (reminder). Nothing after 16:00. [Calendar, Reminders]\\n- Mail: nothing needs a reply. [Inbox]\\n- Slack: Arjun posted the root-cause note on the slow exports, closed in Platform. Kavya says registrations are coming in. [Slack, Linear]\\nSources: calendar, inbox, Slack, Linear."}
+{"id": "m0358", "ts": "2026-04-24T09:36:30+05:30", "channel": "whatsapp", "role": "user", "text": "Next Friday, May 1, is Maharashtra Day. We're closed. Don't book anything that day."}
+{"id": "m0359", "ts": "2026-04-24T09:36:36+05:30", "channel": "whatsapp", "role": "assistant", "text": "Saved: Kestrel Works is closed on Friday May 1 for Maharashtra Day, and I will not book anything."}
+{"id": "m0360", "ts": "2026-04-24T10:51:21+05:30", "channel": "whatsapp", "role": "user", "text": "Standup was short. Priya is flagging a crash that came in through support, she thinks it's a one-off."}
+{"id": "m0361", "ts": "2026-04-24T10:51:29+05:30", "channel": "whatsapp", "role": "assistant", "text": "Understood. I'll mention it on Monday if the count grows. Do you want it in the Mobile team in Linear?"}
+{"id": "m0362", "ts": "2026-04-24T10:52:30+05:30", "channel": "whatsapp", "role": "user", "text": "Priya already filed it"}
+{"id": "m0363", "ts": "2026-04-24T10:52:34+05:30", "channel": "whatsapp", "role": "assistant", "text": "Then nothing for me to do."}
+{"id": "m0364", "ts": "2026-04-24T11:20:04+05:30", "channel": "whatsapp", "role": "user", "text": "Kavya says registrations are faster than she expected. Tell me what she needs from me."}
+{"id": "m0365", "ts": "2026-04-24T11:21:02+05:30", "channel": "whatsapp", "role": "assistant", "text": "Nothing from you. She asked for two things for next week: a decision on whether to run a reminder email, and your sign-off on the confirmation email. She will message you Monday."}
+{"id": "m0366", "ts": "2026-04-24T11:24:14+05:30", "channel": "whatsapp", "role": "user", "text": "Fine"}
+{"id": "m0367", "ts": "2026-04-24T12:15:06+05:30", "channel": "whatsapp", "role": "assistant", "text": "Reminder: leave now if you want to beat the lunch queue."}
+{"id": "m0368", "ts": "2026-04-24T12:20:36+05:30", "channel": "telegram", "role": "user", "text": "somewhere in the next hour, can you find me a quiet slot Monday for Priya? A short call"}
+{"id": "m0369", "ts": "2026-04-24T12:20:41+05:30", "channel": "telegram", "role": "assistant", "text": "Monday April 27 options: 11:30 to 12:00 or 16:15 to 16:45. Which?"}
+{"id": "m0370", "ts": "2026-04-24T12:22:39+05:30", "channel": "telegram", "role": "user", "text": "11:30"}
+{"id": "m0371", "ts": "2026-04-24T12:22:48+05:30", "channel": "telegram", "role": "assistant", "text": "Hold placed on Monday 11:30 to 12:00, \"Call with Priya\". I have not sent her an invite yet."}
+{"id": "m0372", "ts": "2026-04-24T12:23:04+05:30", "channel": "telegram", "role": "user", "text": "send it"}
+{"id": "m0373", "ts": "2026-04-24T12:23:13+05:30", "channel": "telegram", "role": "assistant", "text": "Sent. Subject: \"Quick call on the interview schedule\"."}
+{"id": "m0374", "ts": "2026-04-24T12:40:22+05:30", "channel": "telegram", "role": "user", "text": "lunch: thali again?"}
+{"id": "m0375", "ts": "2026-04-24T12:40:28+05:30", "channel": "telegram", "role": "assistant", "text": "Something light would suit. Your next item is the call with Dev Anand at 14:00."}
+{"id": "m0376", "ts": "2026-04-24T13:20:36+05:30", "channel": "whatsapp", "role": "user", "text": "Is Arjun in today?"}
+{"id": "m0377", "ts": "2026-04-24T13:20:40+05:30", "channel": "whatsapp", "role": "assistant", "text": "His calendar shows the 10:00 standup and nothing this afternoon. I cannot see where he is working from."}
+{"id": "m0378", "ts": "2026-04-24T14:00:05+05:30", "channel": "whatsapp", "role": "assistant", "text": "Reminder: ring Dev Anand at Brightline Hosting about the renewal tiers."}
+{"id": "m0379", "ts": "2026-04-24T14:20:04+05:30", "channel": "whatsapp", "role": "assistant", "text": "Imran Qadri's review checklist was due today. It has not arrived yet."}
+{"id": "m0380", "ts": "2026-04-24T14:21:32+05:30", "channel": "whatsapp", "role": "user", "text": "Imran messaged: Monday instead. Chase it Monday if nothing comes."}
+{"id": "m0381", "ts": "2026-04-24T14:21:40+05:30", "channel": "whatsapp", "role": "assistant", "text": "Set for Monday April 27 at 14:00 on WhatsApp: \"Check for Imran's MSA checklist.\""}
+{"id": "m0382", "ts": "2026-04-24T14:36:34+05:30", "channel": "whatsapp", "role": "user", "text": "[voice note] Spoke to Dev. His Chennai team can cover nights, but only on the higher tiers. He's going to send a tier comparison next week. Nothing to decide yet, we'll look at it before the renewal."}
+{"id": "m0383", "ts": "2026-04-24T14:36:41+05:30", "channel": "whatsapp", "role": "assistant", "text": "Saved: Dev Anand will send a tier comparison next week. Night support from the Chennai team is only on the higher tiers. The mail draft to him is no longer needed, I will delete it."}
+{"id": "m0384", "ts": "2026-04-24T14:39:14+05:30", "channel": "whatsapp", "role": "user", "text": "yes delete"}
+{"id": "m0385", "ts": "2026-04-24T14:39:19+05:30", "channel": "whatsapp", "role": "assistant", "text": "Deleted."}
+{"id": "m0386", "ts": "2026-04-24T14:52:30+05:30", "channel": "whatsapp", "role": "user", "text": "Priya wants a quick chat at 4:30 today."}
+{"id": "m0387", "ts": "2026-04-24T14:52:35+05:30", "channel": "whatsapp", "role": "assistant", "text": "I cannot book that: nothing after 16:00 on Fridays. Options today are 15:00 or 15:30. Or Monday, but you already have 11:30 with her."}
+{"id": "m0388", "ts": "2026-04-24T14:54:17+05:30", "channel": "whatsapp", "role": "user", "text": "Can you make an exception?"}
+{"id": "m0389", "ts": "2026-04-24T14:54:23+05:30", "channel": "whatsapp", "role": "assistant", "text": "I can if you tell me to. It would be a one-off."}
+{"id": "m0390", "ts": "2026-04-24T14:55:14+05:30", "channel": "whatsapp", "role": "user", "text": "no, it's not that important. Monday is fine"}
+{"id": "m0391", "ts": "2026-04-24T14:55:20+05:30", "channel": "whatsapp", "role": "assistant", "text": "Then I will tell her today is not possible and point to Monday 11:30."}
+{"id": "m0392", "ts": "2026-04-24T15:30:05+05:30", "channel": "telegram", "role": "assistant", "text": "Wrap-up, Friday:\\n- Closed: Kavya session, Dev Anand call done, root-cause note closed, Monday 11:30 with Priya sent.\\n- Open for Monday: delivery date and pricing table for the proposal, Dhruv's interview at 14:00, RSVP reminder at 18:30.\\nSources: calendar, Slack, Linear."}
+{"id": "m0393", "ts": "2026-04-24T16:05:28+05:30", "channel": "web", "role": "user", "text": "You promised to raise pricing today. What do I have next week?"}
+{"id": "m0394", "ts": "2026-04-24T16:06:01+05:30", "channel": "web", "role": "assistant", "text": "Next week as it stands:\\n- Mon: Planning 10:00, Priya call 11:30, Dhruv's interview 14:00, RSVP reminder 18:30\\n- Tue: standup 10:00; no pricing slot yet\\n- Wed: second round for Anika 11:00, Arjun 14:30 (ends by 15:00)\\n- Thu: nothing booked; Priya is in Pune\\n- Fri: May 1, closed\\nThe pricing discussion with Priya, Arjun and Kavya still needs a slot. Sources: calendar."}
+{"id": "m0395", "ts": "2026-04-24T16:10:36+05:30", "channel": "web", "role": "user", "text": "Tuesday at 10:30 for 45 minutes. Pricing approach. Invite all three."}
+{"id": "m0396", "ts": "2026-04-24T16:10:40+05:30", "channel": "web", "role": "assistant", "text": "Booked: Tuesday April 28, 10:30 to 11:15, \"Pricing approach\", with Priya, Arjun and Kavya. Invites sent."}
+{"id": "m0397", "ts": "2026-04-24T17:05:00+05:30", "channel": "web", "role": "user", "text": "Pull last week's support tickets, summarise by issue and post to #ops."}
+{"id": "m0398", "ts": "2026-04-24T17:07:00+05:30", "channel": "web", "role": "assistant", "text": "Posted to #ops: 121 tickets last week. Login 20, billing webhooks 14, export 17, mobile crash 13, pricing questions 11, other 46. 91% resolved, 2 escalations."}
+{"id": "m0399", "ts": "2026-04-24T17:12:29+05:30", "channel": "web", "role": "user", "text": "That is the week, I think. Not bad for week one."}
+{"id": "m0400", "ts": "2026-04-24T17:12:37+05:30", "channel": "web", "role": "assistant", "text": "Summary of the week: Imran booked and sent the MSA draft, design pipeline set up with two candidates, Acme estimate in, Brightline tiers coming, offsite held for June 11 and 12. The Acme proposal itself is the main open item."}
+{"id": "m0401", "ts": "2026-04-24T17:15:22+05:30", "channel": "web", "role": "user", "text": "Anything in that support summary for Arjun?"}
+{"id": "m0402", "ts": "2026-04-24T17:15:30+05:30", "channel": "web", "role": "assistant", "text": "Billing webhooks (14) and export (17) are the engineering-heavy categories, and export links to this week's slow export fix. Want both on Monday's Arjun agenda?"}
+{"id": "m0403", "ts": "2026-04-24T17:17:17+05:30", "channel": "web", "role": "user", "text": "Yes, add both."}
+{"id": "m0404", "ts": "2026-04-24T17:17:22+05:30", "channel": "web", "role": "assistant", "text": "Added to the Monday 15:30 agenda note for Arjun. Sources: the summary I just posted."}
+{"id": "m0405", "ts": "2026-04-24T18:00:00+05:30", "channel": "web", "role": "user", "text": "Acme is our biggest prospect. The proposal goes to Maya Rao there, delivery target is May 29. Cc Arjun on everything we send Acme."}
+{"id": "m0406", "ts": "2026-04-24T18:01:00+05:30", "channel": "web", "role": "assistant", "text": "Saved: Acme contact is Maya Rao, delivery target May 29, Arjun is copied on all mail to Acme."}
+{"id": "m0407", "ts": "2026-04-24T18:05:35+05:30", "channel": "web", "role": "user", "text": "Put May 29 in the proposal draft. And is there a pricing line yet?"}
+{"id": "m0408", "ts": "2026-04-24T18:05:41+05:30", "channel": "web", "role": "assistant", "text": "Delivery date is now May 29 in the draft. The pricing table is still empty, and I do not have figures. Is the reminder tomorrow at 10:15 still right?"}
+{"id": "m0409", "ts": "2026-04-24T18:08:16+05:30", "channel": "web", "role": "user", "text": "Yes. I'll review in the morning and decide if it goes out."}
+{"id": "m0410", "ts": "2026-04-24T18:08:21+05:30", "channel": "web", "role": "assistant", "text": "Understood. Nothing goes without your yes."}
+{"id": "m0411", "ts": "2026-04-24T18:20:29+05:30", "channel": "web", "role": "user", "text": "Anything on this weekend?"}
+{"id": "m0412", "ts": "2026-04-24T18:20:33+05:30", "channel": "web", "role": "assistant", "text": "Saturday: haircut with Salim at 12:00, and the proposal reminder at 10:15. Sunday: nothing."}
+{"id": "m0413", "ts": "2026-04-24T19:40:17+05:30", "channel": "telegram", "role": "user", "text": "dinner idea, 15 minutes"}
+{"id": "m0414", "ts": "2026-04-24T19:40:22+05:30", "channel": "telegram", "role": "assistant", "text": "Egg bhurji with toast, or masala omelette and a salad. Both under 15 minutes."}
+{"id": "m0415", "ts": "2026-04-24T19:41:34+05:30", "channel": "telegram", "role": "user", "text": "bhurji"}
+{"id": "m0416", "ts": "2026-04-24T19:41:42+05:30", "channel": "telegram", "role": "assistant", "text": "Onion, tomato, green chilli, turmeric, a little butter, eggs last. Two minutes on low."}
+{"id": "m0417", "ts": "2026-04-24T20:30:26+05:30", "channel": "telegram", "role": "user", "text": "weather tomorrow"}
+{"id": "m0418", "ts": "2026-04-24T20:30:30+05:30", "channel": "telegram", "role": "assistant", "text": "Mumbai: about 34C, humid, no rain expected."}
+{"id": "m0419", "ts": "2026-04-24T21:15:06+05:30", "channel": "telegram", "role": "user", "text": "Remind me tomorrow 9am to buy a card for Neel's gift"}
+{"id": "m0420", "ts": "2026-04-24T21:15:15+05:30", "channel": "telegram", "role": "assistant", "text": "Set for Saturday 09:00 on WhatsApp."}
+{"id": "m0421", "ts": "2026-04-24T22:10:10+05:30", "channel": "telegram", "role": "user", "text": "skipping my Saturday run tomorrow, sleeping in"}
+{"id": "m0422", "ts": "2026-04-24T22:10:14+05:30", "channel": "telegram", "role": "assistant", "text": "Nothing is booked before 10:15 tomorrow."}
+{"id": "m0423", "ts": "2026-04-25T09:00:05+05:30", "channel": "whatsapp", "role": "assistant", "text": "Reminder: buy a card for Neel's gift."}
+{"id": "m0424", "ts": "2026-04-25T09:01:46+05:30", "channel": "whatsapp", "role": "user", "text": "ok"}
+{"id": "m0425", "ts": "2026-04-25T09:12:20+05:30", "channel": "telegram", "role": "user", "text": "morning. slept till nine"}
+{"id": "m0426", "ts": "2026-04-25T09:12:27+05:30", "channel": "telegram", "role": "assistant", "text": "Good morning. At 10:15 you have the proposal reminder, and the haircut is at 12:00. The card reminder went at 09:00."}
+{"id": "m0427", "ts": "2026-04-25T09:50:08+05:30", "channel": "telegram", "role": "user", "text": "The barber texted, can we do 12:30 instead?"}
+{"id": "m0428", "ts": "2026-04-25T09:50:13+05:30", "channel": "telegram", "role": "assistant", "text": "Moved: Haircut with Salim, 12:30 to 13:15."}
+{"id": "m0429", "ts": "2026-04-25T10:15:00+05:30", "channel": "whatsapp", "role": "assistant", "text": "Reminder: look over the proposal."}
+{"id": "m0430", "ts": "2026-04-25T10:18:17+05:30", "channel": "web", "role": "user", "text": "[attachment: Acme_Proposal_v1.pdf] This is the final file. Check that the delivery date reads May 29 and the payment terms say net 30."}
+{"id": "m0431", "ts": "2026-04-25T10:19:02+05:30", "channel": "web", "role": "assistant", "text": "Checked. Page 3 gives the delivery target as May 29, page 4 says net 30 from invoice date, and the cover reads \"Proposal v1\". The pricing table on page 5 is filled in, but I did not verify the figures."}
+{"id": "m0432", "ts": "2026-04-25T10:22:16+05:30", "channel": "web", "role": "user", "text": "Fine. Let me read it once more."}
+{"id": "m0433", "ts": "2026-04-25T10:22:21+05:30", "channel": "web", "role": "assistant", "text": "Take your time."}
+{"id": "m0434", "ts": "2026-04-25T10:30:00+05:30", "channel": "web", "role": "user", "text": "Send the proposal v1 to Maya at Acme."}
+{"id": "m0435", "ts": "2026-04-25T10:32:00+05:30", "channel": "web", "role": "assistant", "text": "Draft ready: 'Proposal v1', to Maya Rao, cc Arjun. Want me to send it?"}
+{"id": "m0436", "ts": "2026-04-25T10:33:00+05:30", "channel": "web", "role": "user", "text": "yes send"}
+{"id": "m0437", "ts": "2026-04-25T10:33:00+05:30", "channel": "web", "role": "assistant", "text": "Sent."}
+{"id": "m0438", "ts": "2026-04-25T10:36:20+05:30", "channel": "web", "role": "user", "text": "Maya is usually quick. Tell me if she replies today."}
+{"id": "m0439", "ts": "2026-04-25T10:36:29+05:30", "channel": "web", "role": "assistant", "text": "I will watch the inbox and message you on WhatsApp if she replies today."}
+{"id": "m0440", "ts": "2026-04-25T10:37:20+05:30", "channel": "web", "role": "user", "text": "And if there's nothing by Tuesday afternoon, remind me to chase her. Tuesday 2pm."}
+{"id": "m0441", "ts": "2026-04-25T10:37:27+05:30", "channel": "web", "role": "assistant", "text": "Set for Tuesday April 28 at 14:00 on WhatsApp: \"Chase Maya Rao if no reply on the proposal.\""}
+{"id": "m0442", "ts": "2026-04-25T10:41:04+05:30", "channel": "web", "role": "user", "text": "Show me what went out."}
+{"id": "m0443", "ts": "2026-04-25T10:41:13+05:30", "channel": "web", "role": "assistant", "text": "Sent at 10:33 from your account to Maya Rao, cc Arjun Sethi, subject \"Proposal timeline\", with the proposal attached. Body: \"Hi Maya, Proposal v1 is attached. Our delivery target is May 29. Happy to walk through it whenever suits you.\""}
+{"id": "m0444", "ts": "2026-04-25T12:06:03+05:30", "channel": "whatsapp", "role": "user", "text": "[voice note] I'm leaving for the barber. Anything that needs me before one?"}
+{"id": "m0445", "ts": "2026-04-25T12:06:09+05:30", "channel": "whatsapp", "role": "assistant", "text": "Nothing. The inbox has two newsletters and no reply from Acme."}
+{"id": "m0446", "ts": "2026-04-25T13:25:24+05:30", "channel": "whatsapp", "role": "user", "text": "Back. Anything from Maya?"}
+{"id": "m0447", "ts": "2026-04-25T13:25:28+05:30", "channel": "whatsapp", "role": "assistant", "text": "No reply yet."}
+{"id": "m0448", "ts": "2026-04-25T14:10:05+05:30", "channel": "telegram", "role": "user", "text": "bought the pour-over set for Neel. need a card line"}
+{"id": "m0449", "ts": "2026-04-25T14:10:12+05:30", "channel": "telegram", "role": "assistant", "text": "Three options:\\n1. \"To Neel and Tara: may every morning start this well.\"\\n2. \"Congratulations to you both. Brew something good.\"\\n3. \"Wishing you a lifetime of slow mornings.\"\\nSign-off would be your first name only, for a card."}
+{"id": "m0450", "ts": "2026-04-25T14:13:09+05:30", "channel": "telegram", "role": "user", "text": "the first, sign it Rohan"}
+{"id": "m0451", "ts": "2026-04-25T14:13:13+05:30", "channel": "telegram", "role": "assistant", "text": "Written down: \"To Neel and Tara: may every morning start this well. Rohan.\""}
+{"id": "m0452", "ts": "2026-04-25T16:47:19+05:30", "channel": "whatsapp", "role": "user", "text": "How many days from today to May 29?"}
+{"id": "m0453", "ts": "2026-04-25T16:47:23+05:30", "channel": "whatsapp", "role": "assistant", "text": "34 days. Counting from Monday April 27, May 29 is the end of the fifth week."}
+{"id": "m0454", "ts": "2026-04-25T17:32:31+05:30", "channel": "telegram", "role": "user", "text": "no cooking tonight, ideas"}
+{"id": "m0455", "ts": "2026-04-25T17:32:40+05:30", "channel": "telegram", "role": "assistant", "text": "I cannot order food. No-cook options: curd rice with pickle, a cucumber and chickpea salad, or toast with cheese and tomato."}
+{"id": "m0456", "ts": "2026-04-25T19:16:21+05:30", "channel": "telegram", "role": "user", "text": "Remind me tomorrow at 5 to prep for Monday."}
+{"id": "m0457", "ts": "2026-04-25T19:16:26+05:30", "channel": "telegram", "role": "assistant", "text": "Set for Sunday 17:00 on WhatsApp."}
+{"id": "m0458", "ts": "2026-04-25T20:48:29+05:30", "channel": "telegram", "role": "user", "text": "a coffee fact before bed"}
+{"id": "m0459", "ts": "2026-04-25T20:48:34+05:30", "channel": "telegram", "role": "assistant", "text": "Espresso has less caffeine per serving than a mug of filter coffee, because the serving is so much smaller."}
+{"id": "m0460", "ts": "2026-04-26T09:10:36+05:30", "channel": "telegram", "role": "user", "text": "Morning. Quiet day."}
+{"id": "m0461", "ts": "2026-04-26T09:10:41+05:30", "channel": "telegram", "role": "assistant", "text": "Nothing booked. One reminder at 17:00 to prep for Monday."}
+{"id": "m0462", "ts": "2026-04-26T09:45:23+05:30", "channel": "whatsapp", "role": "user", "text": "[voice note] Thinking about the offsite. Day one: roadmap in the morning, pricing in the afternoon, a proper dinner. Day two: hiring and a retro. Friday has to end by three thirty. Can you write that up as a rough agenda?"}
+{"id": "m0463", "ts": "2026-04-26T09:45:32+05:30", "channel": "whatsapp", "role": "assistant", "text": "Draft offsite agenda, held for June 11 and 12:\\nDay 1 (Thursday): roadmap session in the morning, pricing in the afternoon, team dinner.\\nDay 2 (Friday): hiring plan, then retro, closing by 15:30.\\nStatus: tentative, venue open between Karjat and Lonavala."}
+{"id": "m0464", "ts": "2026-04-26T09:52:14+05:30", "channel": "whatsapp", "role": "user", "text": "Good. Don't share it yet."}
+{"id": "m0465", "ts": "2026-04-26T09:52:23+05:30", "channel": "whatsapp", "role": "assistant", "text": "Not shared. It is a draft in this chat only."}
+{"id": "m0466", "ts": "2026-04-26T11:20:04+05:30", "channel": "web", "role": "user", "text": "Draft a short Slack message inviting the team to the offsite, tentative, dates only. For when I decide."}
+{"id": "m0467", "ts": "2026-04-26T11:21:03+05:30", "channel": "web", "role": "assistant", "text": "Draft:\\n\\n\"Team, I am pencilling in a two-day offsite on Thursday June 11 and Friday June 12, within a few hours of Mumbai. It is tentative until I hear from each of you. Please tell me this week if either day is a problem.\"\\n\\nHolding it unsent."}
+{"id": "m0468", "ts": "2026-04-26T11:24:38+05:30", "channel": "web", "role": "user", "text": "Fine. Hold until I've picked a venue."}
+{"id": "m0469", "ts": "2026-04-26T11:24:42+05:30", "channel": "web", "role": "assistant", "text": "Held."}
+{"id": "m0470", "ts": "2026-04-26T12:08:07+05:30", "channel": "whatsapp", "role": "user", "text": "Lunch with my parents, back around four. Only wake me for Maya."}
+{"id": "m0471", "ts": "2026-04-26T12:08:13+05:30", "channel": "whatsapp", "role": "assistant", "text": "Understood. I will only message you if Maya Rao replies."}
+{"id": "m0472", "ts": "2026-04-26T16:12:11+05:30", "channel": "whatsapp", "role": "user", "text": "back. Did Maya write?"}
+{"id": "m0473", "ts": "2026-04-26T16:12:19+05:30", "channel": "whatsapp", "role": "assistant", "text": "No reply from Maya Rao."}
+{"id": "m0474", "ts": "2026-04-26T17:00:00+05:30", "channel": "whatsapp", "role": "assistant", "text": "Monday prep:\\n- Planning 10:00, call with Priya 11:30, Dhruv's interview 14:00 with Priya. Reminder at 14:00 to check for Imran's MSA checklist.\\n- Arjun at 15:30: billing webhooks and export from the support summary are on his agenda note.\\n- Kavya will message about the reminder email and the confirmation email.\\n- RSVP for Neel's wedding is due Thursday; the reminder is set for 18:30.\\nSources: calendar, Slack, reminders."}
+{"id": "m0475", "ts": "2026-04-26T17:04:15+05:30", "channel": "whatsapp", "role": "user", "text": "Move the RSVP reminder to Tuesday evening. I want to look at the invite card first."}
+{"id": "m0476", "ts": "2026-04-26T17:04:21+05:30", "channel": "whatsapp", "role": "assistant", "text": "Moved: Tuesday April 28 at 18:30 on Telegram. The deadline is still Thursday April 30."}
+{"id": "m0477", "ts": "2026-04-26T17:09:14+05:30", "channel": "whatsapp", "role": "user", "text": "Add to Monday: ask Kavya what date the webinar is."}
+{"id": "m0478", "ts": "2026-04-26T17:09:23+05:30", "channel": "whatsapp", "role": "assistant", "text": "Added to Monday's list."}
+{"id": "m0479", "ts": "2026-04-26T18:35:03+05:30", "channel": "telegram", "role": "user", "text": "What are good practical questions for a design first round? Dhruv is tomorrow."}
+{"id": "m0480", "ts": "2026-04-26T18:35:12+05:30", "channel": "telegram", "role": "assistant", "text": "Four to try:\\n- Walk me through one project from brief to shipped, and what you changed along the way.\\n- How do you decide when a design is done enough to hand to engineering?\\n- Describe a time you disagreed with a developer about a design. What happened?\\n- What would you want to know about our users before drawing anything?"}
+{"id": "m0481", "ts": "2026-04-26T18:39:46+05:30", "channel": "telegram", "role": "user", "text": "Second one is good. Nobody asks it."}
+{"id": "m0482", "ts": "2026-04-26T18:39:50+05:30", "channel": "telegram", "role": "assistant", "text": "Noted for the call."}
+{"id": "m0483", "ts": "2026-04-26T20:32:18+05:30", "channel": "web", "role": "user", "text": "Looking at the week, what should I handle first on Monday?"}
+{"id": "m0484", "ts": "2026-04-26T20:33:00+05:30", "channel": "web", "role": "assistant", "text": "Order I would take it in:\\n- Kavya's webinar date and her two decisions (reminder email, confirmation email)\\n- Priya at 11:30, mostly the interview schedule\\n- Billing webhooks and export with Arjun at 15:30\\n- Dhruv at 14:00\\n- Maya Rao's reply, if it comes: Acme's questions come first\\nSources: your calendar and Slack as of tonight."}
+{"id": "m0485", "ts": "2026-04-26T20:36:35+05:30", "channel": "web", "role": "user", "text": "Good. Thanks for the week. One change: from tomorrow I want the morning brief at 8:30, every weekday including Wednesdays."}
+{"id": "m0486", "ts": "2026-04-26T20:36:42+05:30", "channel": "web", "role": "assistant", "text": "Changed: morning brief at 08:30 from tomorrow, Monday to Friday including Wednesdays, still on WhatsApp."}

@@ -1,0 +1,28 @@
+{
+  "name": "Rohan Menon",
+  "company": "Kestrel Works",
+  "what_they_do": "small B2B SaaS company",
+  "city": "Mumbai",
+  "timezone": "Asia/Kolkata",
+  "email": "rohan@kestrelworks.example",
+  "team": [
+    {
+      "name": "Priya Nair",
+      "email": "priya@kestrelworks.example"
+    },
+    {
+      "name": "Arjun Sethi",
+      "email": "arjun@kestrelworks.example"
+    },
+    {
+      "name": "Kavya Shah",
+      "email": "kavya@kestrelworks.example"
+    }
+  ],
+  "history_window": {
+    "from": "2026-04-18",
+    "to": "2026-05-17"
+  },
+  "as_of": "2026-05-18T09:30:00+05:30",
+  "note": "Everything in this package is invented. The persona is not a real person and the companies are not real. Treat as_of as the current time."
+}

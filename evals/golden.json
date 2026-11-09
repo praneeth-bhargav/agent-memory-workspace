@@ -1,0 +1,98 @@
+[
+  {
+    "id": "case-001",
+    "category": "ambiguous_identity",
+    "setup": "The user has two contacts named Maya. Maya Rao is the Acme contact; proposal v1 was sent to her with a May 29 delivery target. Maya Iyer has an invoice for INR 45,000, due May 20, with payment held until final illustrations arrive.",
+    "user_message": "Maya replied. Draft a response saying the timeline still works.",
+    "source_ids": ["history:m0405", "history:m0435", "history:m1154"],
+    "expected_behavior": "Identify Maya Rao and draft an email reply based on the inbox message she received. Leave it as a draft and ask the user for confirmation before sending."
+  },
+  {
+    "id": "case-002",
+    "category": "changed_commitment",
+    "setup": "The user first held June 11–12 for a team offsite. Later, the user said those dates were too close to the Acme work and asked to re-plan it as a one-night offsite.",
+    "user_message": "What dates do we have for the offsite?",
+    "source_ids": ["history:m0066", "history:m0067", "history:m1048", "history:m1049"],
+    "expected_behavior": "We have planned it to jun 11-12 but we have others(relavent name who ever ) said that we have to make it one plan(it needs a prper citation of the message whereever relanvnt even for previous case). So it is good veirfy with the perseon If avalabbel and able to fetch we should as well i mean thatis the expected behaviour"
+  },
+  {
+    "id": "case-003",
+    "category": "explicit_correction",
+    "setup": "The user previously held June 18–19 for the offsite. Later, they explicitly changed the dates to June 25–26.",
+    "user_message": "What dates are we using for the offsite now?",
+    "source_ids": ["history:m1049", "history:m1338"],
+    "expected_behavior": "It should say that the offsite is now scheduled for June 25–26 and that this changed from the earlier June 18–19 plan. It should cite the source of the change when available; if no citation is available, it should say that the cause could not be verified because a direct API change may also have caused it."
+  },
+  {
+    "id": "case-004",
+    "category": "confirmation_and_action",
+    "setup": "The assistant drafted a reply to Maya Rao about the Acme scope questions, with Arjun copied and the scope document attached. The user has not yet approved sending it.",
+    "user_message": "Send it.",
+    "source_ids": ["history:m1008", "history:m1009", "history:m1011"],
+    "expected_behavior": "it trigger the tool call that is required to send the email"
+  },
+  {
+    "id": "case-005",
+    "category": "unavailable_tool_capability",
+    "setup": "The user asked to book a restaurant table. The assistant stated that it could not book tables or make calls, but could place a calendar hold instead.",
+    "user_message": "Book the table anyway.",
+    "source_ids": ["history:m0050", "history:m0051"],
+    "expected_behavior": "Sorry I don't have access to the apis for any hotels aggregator but I can crate an event in the calender would you like me tor create one? If yes please tell me the timings of the event"
+  },
+  {
+    "id": "case-006",
+    "category": "memory_recall_and_action",
+    "setup": "The user previously said that Arjun should be copied on everything sent to Acme.",
+    "user_message": "Draft the next email to Acme.",
+    "source_ids": ["history:m0405"],
+    "expected_behavior": "in the tool call it shoudl include the arjun as well and tell them i have added arjun to your copy as i recaled from my memory"
+  },
+  {
+    "id": "case-007",
+    "category": "forgetting",
+    "setup": "The user asked for a reminder about the clinic exclusions at 14:00, and that reminder was delivered. The case tests whether it remains active afterward.",
+    "user_message": "What reminders do I still have about the clinic list?",
+    "source_ids": ["history:m1110", "history:m1116"],
+    "expected_behavior": "We don't have any active reminders"
+  },
+  {
+    "id": "case-008",
+    "category": "memory_recall_with_contact_lookup",
+    "setup": "The user previously said that anything sent to Acme should copy Arjun. Arjun's contact record lists his email as arjun@kestrelworks.example.",
+    "user_message": "Who should be copied on the Acme email?",
+    "source_ids": ["history:m0405", "contact:c03"],
+    "expected_behavior": "arjun with mentinoing argjun email"
+  },
+  {
+    "id": "case-009",
+    "category": "external_source_of_truth_and_sync",
+    "setup": "The offsite was previously June 18–19, then changed to June 25–26. The available history contains a user message explaining the change, but the system should also handle changes made directly through an external calendar API.",
+    "user_message": "Why did the offsite dates change?",
+    "source_ids": ["history:m1049", "history:m1338"],
+    "expected_behavior": "It should checkt the calender api and then answer that is the actuall source of truth then update it and then check if there is any mis-sync liek this which didn't not cover the agent then it should answer that previously it was change to jun 25-26 by certain user due to something but it was manually overided chagned by other user(if the api of calender tells the who changed it)"
+  },
+  {
+    "id": "case-010",
+    "category": "scheduling_constraint",
+    "setup": "The user works 10:00–18:00 IST and must not be booked after 16:00 on Fridays.",
+    "user_message": "Book a Friday meeting at 16:30.",
+    "source_ids": ["history:m0088"],
+    "expected_behavior": "As per your memeory you said that no meeting to be booked afte teh the 16:00 do you still want to create it?"
+  },
+  {
+    "id": "case-011",
+    "category": "ambiguous_follow_up",
+    "setup": "The user has several items tomorrow: a standup, interview, webinar review, and an Imran call. The user then says “Set that up for tomorrow” without specifying which item.",
+    "user_message": "Set that up for tomorrow.",
+    "source_ids": ["history:m0147", "history:m0148", "history:m0149"],
+    "expected_behavior": "I could see multiple events tomorrow list all citations if relabant or stored and asks the user to select which one to setup"
+  },
+  {
+    "id": "case-012",
+    "category": "unavailable_live_data",
+    "setup": "The assistant does not have a sports feed and cannot check live scores.",
+    "user_message": "Who won the match last night?",
+    "source_ids": ["history:m0072", "history:m0073"],
+    "expected_behavior": "Sorry I don't have access to the relanvant tools that can fetch the sports feed. I can help you with setting up meets, managing emails and other tasks it is capable of'"
+  }
+]

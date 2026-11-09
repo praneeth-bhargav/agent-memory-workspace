@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory Lab</title>
+  <style>
+    :root { color-scheme: light; font-family: ui-sans-serif, system-ui, sans-serif; color: #18312d; background: #f3f5f1; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 36px 18px; }
+    main { max-width: 760px; margin: auto; }
+    .eyebrow { color: #526b60; font-size: .75rem; font-weight: 700; letter-spacing: .13em; text-transform: uppercase; }
+    h1 { font-size: clamp(2rem, 6vw, 2.8rem); letter-spacing: -.05em; margin: 8px 0; }
+    .intro, .note { color: #52635b; line-height: 1.5; }
+    .intro { margin: 0 0 22px; }
+    .card { background: #fff; border: 1px solid #dce5dc; border-radius: 14px; padding: 22px; box-shadow: 0 8px 30px #163f2610; }
+    #messages { min-height: 260px; max-height: 55vh; overflow-y: auto; display: flex; flex-direction: column; gap: 14px; padding-bottom: 18px; }
+    .message { max-width: 90%; padding: 12px 15px; border-radius: 12px; background: #f0f5ef; line-height: 1.5; white-space: pre-wrap; overflow-wrap: anywhere; }
+    .message.user { align-self: flex-end; background: #e0efe3; }
+    .message strong { display: block; font-size: .72rem; text-transform: uppercase; letter-spacing: .06em; color: #496759; margin-bottom: 4px; }
+    .tool-activity { border: 1px solid #dce5dc; border-radius: 8px; padding: 10px 12px; color: #36564a; font-size: .88rem; }
+    .tool-activity summary { cursor: pointer; font-weight: 650; }
+    .tool-activity pre { max-height: 240px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; font-size: .8rem; }
+    .composer { border-top: 1px solid #dce5dc; padding-top: 18px; }
+    label { display: block; font-weight: 650; margin-bottom: 8px; }
+    textarea { width: 100%; min-height: 80px; resize: vertical; color: inherit; background: #fbfcfa; border: 1px solid #aebfb1; border-radius: 8px; font: inherit; padding: 12px; }
+    textarea:focus-visible, button:focus-visible { outline: 3px solid #92bd9b; outline-offset: 2px; }
+    .actions { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-top: 10px; }
+    button { min-height: 44px; border: 1px solid #184e38; border-radius: 8px; padding: 10px 22px; font: inherit; font-weight: 650; cursor: pointer; background: #184e38; color: white; }
+    button:disabled { opacity: .55; cursor: wait; }
+    .note { font-size: .83rem; }
+    .warning { color: #76520e; font-size: .82rem; line-height: 1.5; margin-top: 16px; }
+    @media (max-width: 480px) { body { padding: 24px 12px; } .card { padding: 16px; } .actions { align-items: flex-start; } #messages { min-height: 230px; } }
+  </style>
+</head>
+<body>
+<main>
+  <div class="eyebrow">Standalone memory layer · Local test</div>
+  <h1>Memory Lab</h1>
+  <p class="intro">Ask what I remember, or tell me what to save, change, or forget.</p>
+  <div class="card">
+    <div id="messages" aria-live="polite" aria-label="Conversation">
+      <div class="message"><strong>Memory Lab</strong>Try “Remember that I prefer tea,” then ask “What drink do I prefer?”</div>
+    </div>
+    <form class="composer" id="form">
+      <label for="text">Your message</label>
+      <textarea id="text" required maxlength="10000" placeholder="Type a message…"></textarea>
+      <div class="actions"><span class="note">Enter to send · Shift + Enter for a new line</span><button id="send" type="submit">Send</button></div>
+    </form>
+  </div>
+  <p class="warning">Test data only. Messages and memories are sent to the model provider. Changes take effect immediately. The backend retains chat context even when the visible chat clears on refresh.</p>
+</main>
+<script>
+  const form = document.getElementById('form');
+  const text = document.getElementById('text');
+  const send = document.getElementById('send');
+  const messages = document.getElementById('messages');
+  const toolLabels = {
+    memory_read: 'Reading memory', memory_change: 'Updating memory', get_action_context: 'Getting action context',
+    search_contacts: 'Searching contacts', search_mail: 'Searching mail',
+    read_mail_thread: 'Reading mail', search_slack: 'Searching Slack',
+    read_calendar: 'Reading calendar', list_calendar_people: 'Checking calendars',
+    find_available_slots: 'Finding available slots', prepare_mock_email: 'Preparing mock email',
+    prepare_mock_slack_post: 'Preparing mock Slack post', prepare_mock_booking: 'Preparing mock booking'
+  };
+
+  function prettyJson(value) {
+    try { return JSON.stringify(JSON.parse(value), null, 2); }
+    catch { return value; }
+  }
+
+  function showToolStart(event, tools) {
+    const detail = document.createElement('details');
+    const summary = document.createElement('summary');
+    const input = document.createElement('pre');
+    detail.className = 'tool-activity';
+    summary.textContent = `${toolLabels[event.name] || event.name}…`;
+    input.textContent = `Input:\n${prettyJson(event.data)}`;
+    detail.append(summary, input);
+    messages.appendChild(detail);
+    tools.set(event.tool_call_id, { detail, summary, label: toolLabels[event.name] || event.name });
+    messages.scrollTop = messages.scrollHeight;
+  }
+
+  function showToolResult(event, tools) {
+    const item = tools.get(event.tool_call_id);
+    if (!item) return;
+    item.summary.textContent = `${item.label} — ${event.status === 'error' ? 'failed' : 'done'}`;
+    const result = document.createElement('pre');
+    result.textContent = `Result:\n${prettyJson(event.data)}`;
+    item.detail.appendChild(result);
+    messages.scrollTop = messages.scrollHeight;
+  }
+
+  async function readStream(response) {
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    const tools = new Map();
+    let buffer = '';
+    let answered = false;
+    while (true) {
+      const { value, done } = await reader.read();
+      buffer += decoder.decode(value, { stream: !done });
+      const lines = buffer.split('\n');
+      buffer = lines.pop();
+      for (const line of lines) {
+        if (!line.trim()) continue;
+        const event = JSON.parse(line);
+        if (event.kind === 'tool_start') showToolStart(event, tools);
+        if (event.kind === 'tool_result') showToolResult(event, tools);
+        if (event.kind === 'error') throw new Error(event.data);
+        if (event.kind === 'answer') { addMessage('assistant', event.data); answered = true; }
+      }
+      if (done) break;
+    }
+    if (!answered) throw new Error('The response ended before the assistant finished.');
+  }
+
+  function addMessage(role, content) {
+    const item = document.createElement('div');
+    const label = document.createElement('strong');
+    item.className = role === 'user' ? 'message user' : 'message';
+    label.textContent = role === 'user' ? 'You' : 'Memory Lab';
+    item.append(label, document.createTextNode(content));
+    messages.appendChild(item);
+    messages.scrollTop = messages.scrollHeight;
+  }
+
+  text.addEventListener('keydown', event => {
+    if (event.key === 'Enter' && !event.shiftKey && !event.isComposing) {
+      event.preventDefault();
+      form.requestSubmit();
+    }
+  });
+  form.addEventListener('submit', async event => {
+    event.preventDefault();
+    const input = text.value.trim();
+    if (!input || send.disabled) return;
+    addMessage('user', input);
+    text.value = '';
+    send.disabled = true;
+    send.textContent = 'Thinking…';
+    try {
+      const response = await fetch('/api/chat/stream', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: input })
+      });
+      if (!response.ok) {
+        const data = await response.json();
+        throw new Error(typeof data.detail === 'string' ? data.detail : 'Check your message and try again.');
+      }
+      await readStream(response);
+    } catch (error) {
+      addMessage('assistant', error instanceof TypeError ? 'Could not reach the backend. Check that it is running.' : error.message);
+    } finally {
+      send.disabled = false;
+      send.textContent = 'Send';
+      text.focus();
+    }
+  });
+</script>
+</body>
+</html>

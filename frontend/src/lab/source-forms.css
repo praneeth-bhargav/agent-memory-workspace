@@ -1,0 +1,59 @@
+.source-content .record form {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.source-content .record form label {
+  display: grid;
+  gap: 4px;
+  color: #435a4d;
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.source-content .record form input:not([type='checkbox']),
+.source-content .record form select,
+.source-content .record form textarea {
+  width: 100%;
+  min-width: 0;
+  border: 1px solid #ceddd1;
+  border-radius: 7px;
+  padding: 8px 9px;
+  background: #fff;
+  color: #263e35;
+  font: inherit;
+}
+
+.source-content .record form input:focus-visible,
+.source-content .record form select:focus-visible,
+.source-content .record form textarea:focus-visible {
+  outline: 3px solid #528a77;
+  outline-offset: 2px;
+}
+
+.source-content .record form textarea { min-height: 72px; resize: vertical; }
+.source-content .record form label:has(input[type='checkbox']) { display: flex; align-items: center; }
+.source-content .record form button {
+  justify-self: start;
+  border: 0;
+  border-radius: 7px;
+  padding: 8px 12px;
+  background: #194d39;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+.source-content .record form button:disabled { opacity: .5; cursor: not-allowed; }
+.source-content .record form [role='alert'] { margin: 0; color: #8a382b; font-size: 12px; }
+.memory-text { margin: 0; white-space: pre-wrap; color: #435a4d; font-size: 13px; line-height: 1.55; }
+.memory-provenance { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 10px 0 0; padding: 0; list-style: none; }
+.memory-provenance a { color: #347454; font-size: 11px; }
+.memory-actions { display: flex; gap: 8px; margin-top: 12px; }
+.memory-actions button, .memory-edit button { border: 1px solid #d6e0d8; border-radius: 7px; padding: 7px 10px; background: #fff; color: #345449; font-size: 12px; font-weight: 650; }
+.memory-actions .forget-memory { color: #963d32; }
+.source-content .memory-edit { display: grid; gap: 8px; margin-top: 12px; }
+.source-content .memory-edit label { color: #435a4d; font-size: 12px; font-weight: 650; }
+.source-content .memory-edit textarea { width: 100%; min-height: 90px; border: 1px solid #ceddd1; border-radius: 7px; padding: 8px 9px; font: inherit; color: #263e35; }
+.source-content .record details > summary { cursor: pointer; color: #3a7957; font-size: 12px; margin-top: 10px; }
+.mail-thread details > summary::after, .mail-thread[open] details > summary::after { content: none; }
